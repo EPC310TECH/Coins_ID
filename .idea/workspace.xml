@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02671aaa-60cb-4749-95dd-ad89f9969678" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Coin_)ID.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1198.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1199.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1200.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1201.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1202.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1203.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1205.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1206.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1207.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1208.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1209.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1210.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1211.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1212.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1213.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1214.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1215.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1216.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1217.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/xx/CascadeProjects/Coin_)ID" value="3G5qgGt1zYmFq1R6Q1OCCByfEzB" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="3G5qgGt1zYmFq1R6Q1OCCByfEzB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/xx/CascadeProjects/Coin_)ID/coin_images"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/coin_images" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4c141bd692a7-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02671aaa-60cb-4749-95dd-ad89f9969678" name="Changes" comment="" />
+      <created>1783271886210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783271886210</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -6,6 +6,7 @@ from PIL import Image
 
 CSV_PATH = "coin_inventory.csv"
 IMAGES_DIR = "coin_images"
+CROPS_DIR = "coin_crops"
 THUMBS_DIR = "report_thumbs"
 OUT_PATH = "index.html"
 THUMB_WIDTH = 320
@@ -47,6 +48,7 @@ CATEGORY_ORDER = [
     "Proof Set", "Mint Set", "Commemorative Display Card",
     "Casino Token", "Elongated Cent (souvenir)",
     "Circulating Quarter", "Circulating Dime", "Circulating Nickel",
+    "Circulating Cent",
     "Circulating Cent (individually read)",
     "Circulating Cent (bulk, unread)",
     "Circulating Cent (bulk, possible duplicate photos)",
@@ -66,6 +68,8 @@ def build():
     total_low = sum(float(r["est_value_low_usd"]) * float(r["qty"] or 1) for r in rows)
     total_high = sum(float(r["est_value_high_usd"]) * float(r["qty"] or 1) for r in rows)
     total_coins = sum(int(float(r["qty"] or 1)) for r in rows)
+    rare_count = sum(1 for r in rows if r["rare_candidate"] == "yes")
+    visual_count = sum(1 for r in rows if r["visual_flag"] == "yes")
 
     parts = [
         """<!DOCTYPE html>
@@ -81,8 +85,13 @@ def build():
   .summary { display: flex; gap: 2rem; padding: 1.2rem 2rem; background: #26374a; color: #fff; flex-wrap: wrap; }
   .summary div b { display: block; font-size: 1.4rem; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.1rem; padding: 1.5rem 2rem; }
-  .card { background: #fff; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,.12); overflow: hidden; display: flex; flex-direction: column; }
+  .card { background: #fff; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,.12); overflow: hidden; display: flex; flex-direction: column; border: 2px solid transparent; }
+  .card.rare { border-color: #c62828; }
+  .card.visual { border-color: #b8860b; }
   .card img { width: 100%; display: block; background: #ddd; }
+  .thumbwrap { position: relative; }
+  .badge { position: absolute; top: .5rem; left: .5rem; background: #c62828; color: #fff; font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; padding: .2rem .5rem; border-radius: 999px; }
+  .badge.visual { background: #b8860b; left: auto; right: .5rem; }
   .card .body { padding: .9rem 1rem 1.1rem; flex: 1; display: flex; flex-direction: column; gap: .35rem; }
   .card h3 { margin: 0; font-size: 1.02rem; }
   .tag { display: inline-block; font-size: .68rem; text-transform: uppercase; letter-spacing: .04em; background: #eef1f5; color: #445; padding: .15rem .5rem; border-radius: 999px; margin-right: .3rem; }
@@ -93,13 +102,16 @@ def build():
   .field { font-size: .84rem; line-height: 1.35; }
   .field b { color: #555; }
   .notes { font-size: .8rem; background: #fbf6e6; border-left: 3px solid #e0c46a; padding: .5rem .6rem; margin-top: .3rem; }
+  .rare-note { font-size: .8rem; background: #fdeaea; border-left: 3px solid #c62828; padding: .5rem .6rem; margin-top: .3rem; }
+  .visual-note { font-size: .8rem; background: #fdf3de; border-left: 3px solid #b8860b; padding: .5rem .6rem; margin-top: .3rem; }
+  .annotated-link { font-size: .78rem; }
   h2.section { margin: 2rem 2rem 0; font-size: 1.15rem; color: #1c2b3a; border-bottom: 2px solid #1c2b3a; padding-bottom: .3rem; }
 </style>
 </head>
 <body>
 <header>
   <h1>Coin Collection Inventory</h1>
-  <p>Identified from photos in coin_images/ - estimated values are reference-guide ranges for common circulated/typical grade examples, not appraisals. Grade-sensitive items need an in-hand look or certified grading.</p>
+  <p>Identified from photos in coin_images/ - estimated values are reference-guide ranges for common circulated/typical grade examples, not appraisals. Grade-sensitive items need an in-hand look or certified grading. Coins pulled out of multi-coin batch photos are shown as their own isolated crop, with a link to the full annotated source photo.</p>
 </header>
 <div class="summary">
   <div><b>"""
@@ -111,6 +123,12 @@ def build():
   <div><b>$"""
         + f"{total_low:,.2f} - ${total_high:,.2f}"
         + """</b>estimated total value range</div>
+  <div><b>"""
+        + str(rare_count)
+        + """</b>flagged as rare/key-date candidates</div>
+  <div><b>"""
+        + str(visual_count)
+        + """</b>flagged for unusual appearance</div>
 </div>
 <div class="grid">
 """
@@ -123,11 +141,23 @@ def build():
             parts.append(f'</div><h2 class="section">{html.escape(current_cat)}</h2><div class="grid">')
 
         img_name = first_image(row["source_images"])
-        thumb = make_thumb(img_name)
-        img_tag = (
-            f'<img src="{THUMBS_DIR}/{html.escape(img_name)}" alt="{html.escape(img_name)}">'
-            if thumb else '<div style="height:180px;background:#ddd"></div>'
-        )
+        crop_path = os.path.join(CROPS_DIR, row["crop_file"]) if row["crop_file"] else None
+        if crop_path and os.path.exists(crop_path):
+            img_src = crop_path
+        else:
+            thumb = make_thumb(img_name)
+            img_src = thumb if thumb else None
+
+        is_rare = row["rare_candidate"] == "yes"
+        is_visual = row["visual_flag"] == "yes"
+        card_classes = "card" + (" rare" if is_rare else "") + (" visual" if is_visual else "")
+
+        img_tag = f'<img src="{html.escape(img_src)}" alt="{html.escape(img_name)}">' if img_src else '<div style="height:180px;background:#ddd"></div>'
+        badges = ""
+        if is_rare:
+            badges += '<span class="badge">rare candidate</span>'
+        if is_visual:
+            badges += '<span class="badge visual">unusual</span>'
 
         value_str = fmt_money(row, "est_value_low_usd", "est_value_high_usd")
         conf_class = f"conf-{row['confidence']}" if row["confidence"] in ("low", "medium", "high") else ""
@@ -140,9 +170,14 @@ def build():
             ])
         )
 
+        annotated_link = (
+            f'<div class="field annotated-link"><a href="{html.escape(row["annotated_file"])}" target="_blank">View annotated source photo &rarr;</a></div>'
+            if row["annotated_file"] else ""
+        )
+
         parts.append(f"""
-  <div class="card">
-    {img_tag}
+  <div class="{card_classes}">
+    <div class="thumbwrap">{img_tag}{badges}</div>
     <div class="body">
       <h3>{html.escape(row['design_variety'])}</h3>
       <div>
@@ -156,6 +191,9 @@ def build():
       <div class="field"><b>Reverse:</b> {html.escape(row['reverse_text'])}</div>
       <div class="field"><b>Condition:</b> {html.escape(row['condition_notes'])}</div>
       <div class="field"><b>Source photo(s):</b> {html.escape(row['source_images'])}</div>
+      {annotated_link}
+      {f'<div class="rare-note"><b>Rare/key-date candidate:</b> {html.escape(row["rare_reason"])}</div>' if is_rare else ''}
+      {f'<div class="visual-note"><b>Unusual appearance:</b> {html.escape(row["visual_flag_reason"])}</div>' if is_visual else ''}
       {f'<div class="notes">{html.escape(row["notes"])}</div>' if row['notes'] else ''}
     </div>
   </div>

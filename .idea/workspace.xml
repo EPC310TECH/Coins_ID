@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02671aaa-60cb-4749-95dd-ad89f9969678" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Coin_)ID.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1198.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1199.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1200.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1201.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1202.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1203.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1205.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1206.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1207.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1208.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1209.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1210.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1211.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1212.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1213.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1214.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1215.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1216.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_images/IMG_1217.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="02671aaa-60cb-4749-95dd-ad89f9969678" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,9 +18,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:EPC310TECH/Coins_ID.git",
+    "accountId": "e8ff68c5-ccd9-4426-9b90-018da48071f6"
+  }
 }]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="3G5qgGt1zYmFq1R6Q1OCCByfEzB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "copilot.chat.legacySessionMetadata.migrated": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/xx/CascadeProjects/Coin_)ID/coin_images"
   }
 }]]></component>

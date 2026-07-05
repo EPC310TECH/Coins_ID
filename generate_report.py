@@ -7,7 +7,7 @@ from PIL import Image
 CSV_PATH = "coin_inventory.csv"
 IMAGES_DIR = "coin_images"
 THUMBS_DIR = "report_thumbs"
-OUT_PATH = "report.html"
+OUT_PATH = "index.html"
 THUMB_WIDTH = 320
 
 

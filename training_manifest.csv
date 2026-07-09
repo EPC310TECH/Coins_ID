@@ -99,42 +99,42 @@ training/American-Innovation-Unc-Reverse-Iowa.jpg,named_reference,American Innov
 training/American-Innovation-Unc-Reverse-Minnesota.jpg,named_reference,American Innovation Dollar - Minnesota (reverse),bullion/proof/commemorative product,,high,
 training/American-Innovation-Unc-Reverse-Wisconsin.jpg,named_reference,American Innovation Dollar - Wisconsin (reverse),bullion/proof/commemorative product,,high,
 training/115168fs.jpg,fs_auction_photo,Liberty Seated uncertain (dime/quarter/half),uncertain (dime/quarter/half),1844,medium,Shield-and-branch Seated Liberty obverse; denomination not visible in this crop.
-training/120703fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1801,medium,Large-size Draped Bust obverse consistent with a dollar.
+training/120703fs.jpg,fs_auction_photo,Draped Bust Dime,Dime,1801,high,"Confirmed via dealer listing (SKU 120703): ""1801 draped bust 10c ms61""."
 training/121514fs.jpg,fs_auction_photo,Seated Liberty / Trade Dollar style Dollar (likely Trade Dollar),Dollar (likely Trade Dollar),1878,low,"Full-figure seated Liberty with pole/cap; 1878 postdates the regular Seated Dollar series (ended 1873), suggesting Trade Dollar."
 training/121564fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1899,medium,"""IN GOD WE TRUST"" arch present, rules out Barber dime."
 training/122773fs.jpg,fs_auction_photo,Seated Liberty / Trade Dollar style Dollar (likely Trade Dollar),Dollar (likely Trade Dollar),1877,low,Same style as 121514fs; 1877 is within the Trade Dollar era.
-training/124971fs.jpg,fs_auction_photo,Draped Bust Half Dollar (likely),Half Dollar (likely),1806,medium,"Draped Bust obverse with stars, heraldic-eagle era."
+training/124971fs.jpg,fs_auction_photo,Draped Bust Half Dollar,Half Dollar,1806,high,"Confirmed via dealer listing (SKU 124971): ""1806 draped bust 50c pointed 6 stem large eagle""."
 training/128257fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1832,high,
 training/129606fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1898,medium,"""IN GOD WE TRUST"" arch present."
 training/133070fs.jpg,fs_auction_photo,Barber-style Liberty head uncertain,uncertain,,low,"Date largely illegible, appears to read ~189X."
 training/133077fs.jpg,fs_auction_photo,Seated Liberty Dollar (likely),Dollar (likely),1857,medium,"Full-figure seated design with flag/pole, large size consistent with a dollar."
 training/134155fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1814,high,
-training/134255fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1798,high,"Large size, draped bust with stars."
-training/134407fs.jpg,fs_auction_photo,Capped Bust uncertain (half/quarter),uncertain (half/quarter),,low,"Turban/cap design, date not fully legible (~181X)."
-training/134481fs.jpg,fs_auction_photo,"Coronet/Liberty head, ""E PLURIBUS UNUM"" uncertain - possibly gold ($1/$2.50)",uncertain - possibly gold ($1/$2.50),1838,low,Motto placement suggests an early gold type rather than silver; not confidently identified.
+training/134255fs.jpg,fs_auction_photo,Draped Bust Dime,Dime,1798,high,"Confirmed via dealer listing (SKU 134255): ""1798 draped bust 10c large 8 ms64""."
+training/134407fs.jpg,fs_auction_photo,Capped Bust Quarter,Quarter,1818,high,"Confirmed via dealer listing (SKU 134407): ""1818 capped bust 25c ms66 plus""."
+training/134481fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1883,high,"Confirmed via dealer listing (SKU 134481): ""1883 morgan s1 ms66 dmpl""."
 training/134498fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1874,medium,Arrows at date typical of the 1873-1874 weight-standard change.
-training/134672fs.jpg,fs_auction_photo,"Coronet/Liberty head, ""E PLURIBUS UNUM"" uncertain - possibly gold",uncertain - possibly gold,1890,low,Same ambiguous motto placement as 134481fs; not confidently identified.
+training/134672fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1890,high,"Confirmed via dealer listing (SKU 134672): ""1890 morgan s1 ms65 dmpl""."
 training/134720fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1840,medium,
 training/134729fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1859,medium,
 training/134864fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1842,medium,
 training/134872fs.jpg,fs_auction_photo,Capped Bust uncertain (half/quarter),uncertain (half/quarter),1840,low,Date partially legible.
-training/135367fs.jpg,fs_auction_photo,Flowing Hair Dollar (likely),Dollar (likely),1794,medium,"1794 falls in the Flowing Hair Dollar's only mintage years (1794-1795) - if genuine this is an extremely rare/valuable reference example, not one of the user's own coins."
-training/135616fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1820,high,
+training/135367fs.jpg,fs_auction_photo,Flowing Hair Half Dollar,Half Dollar,1794,high,"Confirmed via dealer listing (SKU 135367): ""1794 flowing hair 50c au55""."
+training/135616fs.jpg,fs_auction_photo,Capped Bust Dime,Dime,1820,high,"Confirmed via dealer listing (SKU 135616): ""1820 capped bust 10c small 0 ms67""."
 training/135641fs.jpg,fs_auction_photo,Barber uncertain (quarter/half/dime),uncertain (quarter/half/dime),1896,medium,
 training/135652fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1868,medium,
 training/135760fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1840,medium,
 training/135761fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1850,medium,
-training/135762fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1843,medium,
-training/135764fs.jpg,fs_auction_photo,Panama-Pacific Commemorative Gold (octagonal) $50 Gold,$50 Gold,1915,high,"Octagonal shape + ""FIFTY DOLLARS"" + helmeted Liberty head matches the 1915 Panama-Pacific Exposition $50 gold commemorative."
+training/135762fs.jpg,fs_auction_photo,Liberty Seated Quarter,Quarter,1843,high,"Confirmed via dealer listing (SKU 135762): ""1843 liberty seated 25c pr64""."
+training/135764fs.jpg,fs_auction_photo,Panama-Pacific Commemorative Gold (octagonal) $50 Gold,$50 Gold,1915,high,"Confirmed via dealer listing (SKU 135764): ""1915 s gold 50 pan pac octagonal ms65"", mint mark S."
 training/135780fs.jpg,fs_auction_photo,Capped Bust uncertain (half/quarter),uncertain (half/quarter),,low,"Date partially legible, appears to be 182X."
-training/135873fs.jpg,fs_auction_photo,Draped Bust uncertain (dollar/half),uncertain (dollar/half),1795,medium,
+training/135873fs.jpg,fs_auction_photo,Flowing Hair Half Dollar,Half Dollar,1795,high,"Confirmed via dealer listing (SKU 135873): ""1795 flowing hair 50c ms62 plus""."
 training/136298fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1865,medium,
 training/136828fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1917,high,Distinctive full-figure walking Liberty design.
-training/136838fs.jpg,fs_auction_photo,Draped Bust uncertain (likely half dollar),uncertain (likely half dollar),1806,medium,
-training/136839fs.jpg,fs_auction_photo,"Capped Bust uncertain (likely half dollar, lettered edge)","uncertain (likely half dollar, lettered edge)",1818,medium,
+training/136838fs.jpg,fs_auction_photo,Draped Bust Quarter,Quarter,1806,high,"Confirmed via dealer listing (SKU 136838): ""1806 draped bust 25c heraldic eagle ms65""."
+training/136839fs.jpg,fs_auction_photo,Capped Bust Quarter,Quarter,1818,high,"Confirmed via dealer listing (SKU 136839): ""1818 capped bust 25c ms65""."
 training/136840fs.jpg,fs_auction_photo,Seated Liberty (no-drapery style) uncertain (dime/half dime),uncertain (dime/half dime),1845,medium,"Stars fully surround the seated figure, consistent with the smaller no-drapery Seated Liberty dies."
 training/136843fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1834,high,
-training/136979fs.jpg,fs_auction_photo,Capped Bust uncertain (likely half dollar),uncertain (likely half dollar),,low,Date not legible.
+training/136979fs.jpg,fs_auction_photo,Capped Bust Quarter,Quarter,1831,high,"Confirmed via dealer listing (SKU 136979): ""1831 capped bust 25c small letters ms66""."
 training/137244fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1839,medium,
 training/137256fs.jpg,fs_auction_photo,Capped Bust uncertain (likely half dollar),uncertain (likely half dollar),1812,medium,
 training/137442fs.jpg,fs_auction_photo,Standing Liberty Quarter,Quarter,1917,high,"Distinctive standing Liberty with shield and ""IN GOD WE TRUST"" - first-year Type 1 (exposed breast) design."
@@ -142,110 +142,110 @@ training/137443fs.jpg,fs_auction_photo,Capped Bust uncertain (likely half dollar
 training/137457fs.jpg,fs_auction_photo,Draped Bust uncertain (likely dollar),uncertain (likely dollar),1798,low,Date partially legible.
 training/137474fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1829,high,
 training/137651fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1830,high,
-training/137663fs.jpg,fs_auction_photo,Draped Bust uncertain (likely dollar),uncertain (likely dollar),1801,low,Date partially legible.
+training/137663fs.jpg,fs_auction_photo,Draped Bust Dime,Dime,1801,high,"Confirmed via dealer listing (SKU 137663): ""1801 draped bust 10c ms62""."
 training/137664fs.jpg,fs_auction_photo,Seated Liberty (no-drapery style) Dime (likely),Dime (likely),1868,medium,
 training/137668fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1890,medium,
-training/138272fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1804,low,"Reads as 1804 - if genuine this would be the famous/extremely rare 1804 dollar; far more likely this is a museum/reference restrike photo rather than a coin actually in hand. Treat with skepticism, not as a real find."
+training/138272fs.jpg,fs_auction_photo,Draped Bust Dime,Dime,1804,high,"Confirmed via dealer listing (SKU 138272): ""1804 draped bust 10c 13 stars reverse xf45""."
 training/138273fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1821,high,
 training/138345fs.jpg,fs_auction_photo,Trade Dollar Dollar,Dollar,1876,high,"Distinctive seated-on-bale-of-cotton design with wheat sheaf, extended arm - matches the Trade Dollar type specifically (not the regular Seated Dollar)."
 training/138611fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1830,high,
 training/138661fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1824,medium,Date partially legible.
 training/138676fs.jpg,fs_auction_photo,Seated Liberty (no-drapery style) Dime (likely),Dime (likely),1869,medium,
-training/138684fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1796,high,
+training/138684fs.jpg,fs_auction_photo,Draped Bust Dime,Dime,1796,high,"Confirmed via dealer listing (SKU 138684): ""1796 draped bust 10c small eagle ms65""."
 training/138746fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1819,high,
 training/138747fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1829,high,
-training/138768fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1881,high,Distinctive coiled-hair Liberty head + wreath design.
+training/138768fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1881,high,"Confirmed via dealer listing (SKU 138768): ""1881 morgan s1 ms65 dmpl""."
 training/138857fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1905,low,Date partially legible.
 training/138998fs.jpg,fs_auction_photo,Seated Liberty / Trade Dollar style Dollar,Dollar,1873,low,Date partially legible.
 training/139003fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1856,medium,
 training/139004fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1831,high,
-training/139006fs.jpg,fs_auction_photo,Capped Bust (reduced diameter) uncertain (dime),uncertain (dime),1821,medium,
+training/139006fs.jpg,fs_auction_photo,Capped Bust Dime,Dime,1821,high,"Confirmed via dealer listing (SKU 139006): ""1821 capped bust 10c small date ms66""."
 training/139109fs.jpg,fs_auction_photo,Capped Bust (reduced diameter) uncertain (dime/quarter),uncertain (dime/quarter),1825,medium,
-training/139113fs.jpg,fs_auction_photo,Capped Bust (reduced diameter) uncertain (dime/quarter),uncertain (dime/quarter),1822,medium,
+training/139113fs.jpg,fs_auction_photo,Capped Bust Dime,Dime,1822,high,"Confirmed via dealer listing (SKU 139113): ""1822 capped bust 10c ms65""."
 training/139351fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1874,medium,
-training/139551fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1831,high,
+training/139551fs.jpg,fs_auction_photo,Capped Bust Quarter,Quarter,1831,high,"Confirmed via dealer listing (SKU 139551): ""1831 capped bust 25c small letters ms66""."
 training/139567fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1799,low,Date partially legible.
 training/139569fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1845,medium,
-training/139570fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1798,high,
+training/139570fs.jpg,fs_auction_photo,Draped Bust Dime,Dime,1798,high,"Confirmed via dealer listing (SKU 139570): ""1798 draped bust 10c large 8 ms64""."
 training/139747fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1859,medium,
 training/139871fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1867,medium,
 training/139975fs.jpg,fs_auction_photo,Capped Bust uncertain (likely half dollar),uncertain (likely half dollar),,low,Date not legible.
 training/140326fs.jpg,fs_auction_photo,Mercury (Winged Liberty Head) Dime,Dime,1916,medium,Distinctive winged-cap Liberty head + fasces design; exact date digit uncertain.
 training/140328fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1859,low,Date uncertain.
 training/140335fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1808,medium,Date partially legible.
-training/140341fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1806,low,Date partially legible.
+training/140341fs.jpg,fs_auction_photo,Draped Bust Half Dollar,Half Dollar,1806,high,"Confirmed via dealer listing (SKU 140341): ""1806 draped bust 50c knob 6 no stem f12""."
 training/140357fs.jpg,fs_auction_photo,Seated Liberty (Arrows) Quarter (likely),Quarter (likely),1853,medium,
-training/140368fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1888,high,
+training/140368fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1882,high,"Confirmed via dealer listing (SKU 140368): ""1882 os morgan s1 os strong ms65""."
 training/140373fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1895,medium,
 training/140376fs.jpg,fs_auction_photo,Seated Liberty / Trade Dollar style Dollar,Dollar,1885,low,"1885 postdates the regular Seated Dollar series (ended 1873) - if a Trade Dollar, 1885 is an extreme rarity (proof-only); treat with skepticism rather than as a real find."
 training/140385fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1799,medium,
-training/140410fs.jpg,fs_auction_photo,Capped Bust (reduced diameter) uncertain (dime/quarter),uncertain (dime/quarter),,low,Date not legible.
+training/140410fs.jpg,fs_auction_photo,Flowing Hair Half Dollar,Half Dollar,1795,high,"Confirmed via dealer listing (SKU 140410): ""1795 flowing hair 50c 2 leaves ms62""."
 training/140580fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1795,medium,
 training/140585fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1846,medium,
 training/140621fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1852,medium,
 training/140662fs.jpg,fs_auction_photo,Seated Liberty / Trade Dollar style Dollar,Dollar,1878,low,
 training/140692fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),,low,Date not legible.
 training/140824fs.jpg,fs_auction_photo,Capped Bust (reduced diameter) uncertain (dime/quarter),uncertain (dime/quarter),1818,medium,
-training/140825fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1806,low,Date partially legible.
+training/140825fs.jpg,fs_auction_photo,Draped Bust Half Dollar,Half Dollar,1806,high,"Confirmed via dealer listing (SKU 140825): ""1806 draped bust 50c pointed 6 stem ms64 plus""."
 training/140826fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1874,medium,
 training/140834fs.jpg,fs_auction_photo,Seated Liberty uncertain (dime/half dime),uncertain (dime/half dime),1837,medium,
-training/140868fs.jpg,fs_auction_photo,Seated Liberty uncertain (half dollar/quarter/dime),uncertain (half dollar/quarter/dime),1839,medium,
+training/140868fs.jpg,fs_auction_photo,Seated Liberty uncertain (half dollar/quarter/dime),uncertain (half dollar/quarter/dime),1839,high,"Confirmed via dealer listing (SKU 140868): ""1839 gobrecht 1 j 104 res pr65""."
 training/140936fs.jpg,fs_auction_photo,Seated Liberty uncertain (dime/quarter),uncertain (dime/quarter),1884,medium,
-training/140937fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1805,medium,
+training/140937fs.jpg,fs_auction_photo,Draped Bust Dime,Dime,1805,high,"Confirmed via dealer listing (SKU 140937): ""1805 draped bust 10c 4 berries ms67""."
 training/140974fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1873,medium,
 training/141155fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1850,medium,
-training/141216fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1805,low,Date partially legible.
+training/141216fs.jpg,fs_auction_photo,Draped Bust Dime,Dime,1803,high,"Confirmed via dealer listing (SKU 141216): ""1803 draped bust 10c ms61""."
 training/141225fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1866,medium,
-training/141228fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1820,high,
+training/141228fs.jpg,fs_auction_photo,Capped Bust Quarter,Quarter,1820,high,"Confirmed via dealer listing (SKU 141228): ""1820 capped bust 25c large 0 ms63""."
 training/141619fs.jpg,fs_auction_photo,Barber Half Dollar (likely),Half Dollar (likely),1903,medium,
-training/141915fs.jpg,fs_auction_photo,Seated Liberty uncertain (dime/half dime),uncertain (dime/half dime),1838,medium,
-training/141917fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,,low,"Design certain, date not clearly legible (~1890s)."
+training/141915fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1838,high,"Confirmed via dealer listing (SKU 141915): ""1838 s1 j 84 restrike pr65""."
+training/141917fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1892,high,"Confirmed via dealer listing (SKU 141917): ""1892 s morgan s1 ms63"", mint mark S."
 training/142157fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1849,medium,
-training/142265fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1801,low,Date partially legible.
-training/142267fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1805,medium,
+training/142265fs.jpg,fs_auction_photo,Draped Bust Dime,Dime,1801,high,"Confirmed via dealer listing (SKU 142265): ""1801 draped bust 10c ms64 plus""."
+training/142267fs.jpg,fs_auction_photo,Draped Bust Half Dollar,Half Dollar,1803,high,"Confirmed via dealer listing (SKU 142267): ""1803 draped bust 50c small 3 ms62 plus""."
 training/142268fs.jpg,fs_auction_photo,Seated Liberty Dime (likely),Dime (likely),1885,low,Date partially legible.
 training/142269fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1914,medium,
 training/142270fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1900,medium,
 training/142271fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1847,medium,
 training/142283fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1834,medium,Date partially legible.
-training/142333fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1859,medium,
+training/142333fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1839,high,"Confirmed via dealer listing (SKU 142333): ""1839 gobrecht s1 j 104res restrike pr64 plus""."
 training/142343fs.jpg,fs_auction_photo,"Seated Liberty (full legend, Arrows?) uncertain (dime)",uncertain (dime),1871,low,"""UNITED STATES OF AMERICA"" legend obverse variant; denomination/date uncertain."
 training/142344fs.jpg,fs_auction_photo,Seated Liberty (Arrows) Quarter (likely),Quarter (likely),1854,medium,
 training/142397fs.jpg,fs_auction_photo,uncertain bust type uncertain,uncertain,1859,low,"Hairstyle resembles Draped Bust but 1859 postdates that series - date or design may be misread, needs verification."
-training/142460fs.jpg,fs_auction_photo,Continental Currency Dollar (pewter/brass),Dollar (pewter/brass),1776,high,"Distinctive sundial design + ""CONTINENTAL CURRENCY"" text - a famous/rare early American issue; almost certainly a reference photo, not a coin actually in hand."
+training/142460fs.jpg,fs_auction_photo,Continental Currency Dollar (pewter/brass),Dollar (pewter/brass),1776,high,"Confirmed via dealer listing (SKU 142460): ""1776 eg fecit pewter 1 ms65""."
 training/142473fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1870,medium,
 training/142495fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1861,medium,
 training/142496fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1870,medium,
 training/142497fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1873,medium,
 training/142513fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1871,medium,
 training/142539fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dime (likely),Dime (likely),1860,medium,
-training/142542fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1821,high,
+training/142542fs.jpg,fs_auction_photo,Capped Bust Quarter,Quarter,1821,high,"Confirmed via dealer listing (SKU 142542): ""1821 capped bust 25c ms65""."
 training/142543fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1856,low,Date partially legible.
 training/142545fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1844,medium,
 training/142553fs.jpg,fs_auction_photo,Barber (full legend) uncertain (dime/quarter/half),uncertain (dime/quarter/half),1892,high,1892 is the first year of the Barber design.
 training/142586fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1824,high,
-training/142587fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1857,medium,
-training/142608fs.jpg,fs_auction_photo,Indian Princess Head Gold uncertain ($1 or $2.50 gold),uncertain ($1 or $2.50 gold),,medium,Feathered-headdress Liberty design; date not visible in this crop.
+training/142587fs.jpg,fs_auction_photo,Liberty Seated Dollar,Dollar,1857,high,"Confirmed via dealer listing (SKU 142587): ""1857 liberty seated s1 no motto pr65""."
+training/142608fs.jpg,fs_auction_photo,Indian Princess Head Gold uncertain ($1 or $2.50 gold),uncertain ($1 or $2.50 gold),1875,high,"Confirmed via dealer listing (SKU 142608): ""1875 indian princess 3 pr65 deep cameo""."
 training/142636fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1858,medium,
-training/142640fs.jpg,fs_auction_photo,Peace Dollar Dollar,Dollar,,medium,Distinctive radiate-crown Liberty head; exact date (~1930s) not fully legible.
-training/142745fs.jpg,fs_auction_photo,Continental Currency Dollar (pewter/brass),Dollar (pewter/brass),1776,high,Same type as 142460fs.
+training/142640fs.jpg,fs_auction_photo,Peace Dollar,Dollar,1934,high,"Confirmed via dealer listing (SKU 142640): ""1934 d peace 1 ms66 plus"", mint mark D."
+training/142745fs.jpg,fs_auction_photo,Continental Dollar (pewter/brass),Dollar (pewter/brass),1776,high,"Confirmed via dealer listing (SKU 142745): ""1776 continental 1 curency pewter ms63""."
 training/142761fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),,low,Date not legible.
-training/142763fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1806,medium,
-training/142932fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1832,low,Date partially legible.
+training/142763fs.jpg,fs_auction_photo,Draped Bust Quarter,Quarter,1806,high,"Confirmed via dealer listing (SKU 142763): ""1806 draped bust 25c heraldic eagle ms65""."
+training/142932fs.jpg,fs_auction_photo,Capped Bust Quarter,Quarter,1832,high,"Confirmed via dealer listing (SKU 142932): ""1832 capped bust 25c ms65""."
 training/142991fs.jpg,fs_auction_photo,Mercury (Winged Liberty Head) Dime,Dime,,low,"Date reads oddly like 1912, which predates the design's 1916 debut - likely misread (possibly 1942); needs verification."
 training/142994fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1859,medium,
 training/142995fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1857,medium,
 training/142997fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1904,low,Date partially legible.
 training/142998fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,,medium,Date not legible in this crop.
 training/142999fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1798,high,
-training/143023fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1806,medium,
-training/143030fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1803,medium,
-training/143031fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1866,medium,
+training/143023fs.jpg,fs_auction_photo,Draped Bust Half Dollar,Half Dollar,1806,high,"Confirmed via dealer listing (SKU 143023): ""1806 draped bust 50c pointed 6 no stem ms64""."
+training/143030fs.jpg,fs_auction_photo,Draped Bust Dime,Dime,1805,high,"Confirmed via dealer listing (SKU 143030): ""1805 draped bust 10c 4 berries ms66""."
+training/143031fs.jpg,fs_auction_photo,Liberty Seated Dollar,Dollar,1866,high,"Confirmed via dealer listing (SKU 143031): ""1866 liberty seated s1 motto pr66 plus deep cameo""."
 training/143044fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1798,high,
 training/143045fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1831,high,
 training/143055fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1871,medium,
-training/143097fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,,low,Date not clearly legible.
-training/143111fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1802,low,Date partially legible.
+training/143097fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1884,high,"Confirmed via dealer listing (SKU 143097): ""1884 s morgan s1 ms63"", mint mark S."
+training/143111fs.jpg,fs_auction_photo,Draped Bust Dime,Dime,1804,high,"Confirmed via dealer listing (SKU 143111): ""1804 draped bust 10c 13 stars reverse au53""."
 training/143113fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1849,medium,
 training/143114fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1846,medium,
 training/143123fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1812,low,Date partially legible.
@@ -255,69 +255,69 @@ training/143149fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1829,
 training/143150fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1838,high,
 training/143156fs.jpg,fs_auction_photo,Seated Liberty (full legend) uncertain (quarter/half),uncertain (quarter/half),1854,medium,
 training/143175fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1844,medium,
-training/143184fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1888,high,
+training/143184fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1882,high,"Confirmed via dealer listing (SKU 143184): ""1882 morgan s1 ms67""."
 training/143195fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1817,high,
 training/143242fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1909,medium,
 training/143288fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1861,medium,
 training/143332fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1859,medium,
 training/143334fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1865,medium,
 training/143378fs.jpg,fs_auction_photo,Mercury (Winged Liberty Head) Dime,Dime,1942,high,
-training/143388fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1897,high,
+training/143388fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1897,high,"Confirmed via dealer listing (SKU 143388): ""1897 morgan s1 ms66 dmpl""."
 training/143399fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dollar,Dollar,1864,medium,
 training/143404fs.jpg,fs_auction_photo,Trade Dollar Dollar,Dollar,1873,high,First year of the Trade Dollar series.
 training/143408fs.jpg,fs_auction_photo,Trade Dollar Dollar,Dollar,1875,medium,
 training/143413fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1899,medium,
-training/143486fs.jpg,fs_auction_photo,Continental Currency Dollar (pewter/brass),Dollar (pewter/brass),1776,high,"Reverse side (""MIND YOUR BUSINESS"", sundial/FUGIO) of the same Continental Dollar type as 142460fs/142745fs."
+training/143486fs.jpg,fs_auction_photo,Continental Dollar (pewter/brass),Dollar (pewter/brass),1776,high,"Confirmed via dealer listing (SKU 143486): ""1776 continental 1 pewter 'eg fecit' ms64""."
 training/143489fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1855,medium,
 training/143490fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1815,high,
 training/143508fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dime),uncertain (quarter/half/dime),1882,medium,
-training/143545fs.jpg,fs_auction_photo,Shield Nickel Nickel (5 cents),Nickel (5 cents),1867,high,Distinctive shield-and-rays design.
-training/143547fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1890,high,
+training/143545fs.jpg,fs_auction_photo,Shield Nickel (5 cents),Nickel (5 cents),1867,high,"Confirmed via dealer listing (SKU 143545): ""1867 shield 5c rays pr65""."
+training/143547fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1890,high,"Confirmed via dealer listing (SKU 143547): ""1890 cc morgan s1 tailbar ms65 plus"", mint mark CC."
 training/143550fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,,low,"Date partially legible, likely late 1910s."
-training/143580fs.jpg,fs_auction_photo,Capped Bust Half Dollar (lettered edge),Half Dollar (lettered edge),1809,high,
+training/143580fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1809,high,"Confirmed via dealer listing (SKU 143580): ""1809 capped bust 50c ms65 plus""."
 training/143581fs.jpg,fs_auction_photo,Trade Dollar Dollar,Dollar,1875,medium,
 training/143599fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1859,medium,
-training/143710fs.jpg,fs_auction_photo,Continental Currency Dollar (pewter/brass),Dollar (pewter/brass),1776,high,Same type as 142460fs/142745fs/143486fs.
+training/143710fs.jpg,fs_auction_photo,Continental Dollar (pewter/brass),Dollar (pewter/brass),1776,high,"Confirmed via dealer listing (SKU 143710): ""1776 continental 1 curency pewter ms63""."
 training/143735fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1916,high,First year of the design.
-training/143741fs.jpg,fs_auction_photo,Flowing Hair Dollar,Dollar,1794,medium,"Reference example of the extremely rare first-year U.S. silver dollar, not a coin actually in hand."
-training/143742fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1820,high,
+training/143741fs.jpg,fs_auction_photo,Flowing Hair Half Dollar,Half Dollar,1794,high,"Confirmed via dealer listing (SKU 143741): ""1794 flowing hair 50c au50""."
+training/143742fs.jpg,fs_auction_photo,Capped Bust Quarter,Quarter,1820,high,"Confirmed via dealer listing (SKU 143742): ""1820 capped bust 25c small 0 ms66 plus""."
 training/143743fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1895,low,Date partially legible.
-training/143789fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1841,medium,
+training/143789fs.jpg,fs_auction_photo,Liberty Seated Dollar,Dollar,1841,high,"Confirmed via dealer listing (SKU 143789): ""1841 liberty seated s1 no motto ms64""."
 training/143798fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1852,low,Date partially legible.
 training/143799fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1846,medium,
-training/143801fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1842,high,
-training/143802fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1844,high,
-training/143803fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1844,medium,
+training/143801fs.jpg,fs_auction_photo,Liberty Seated Dollar,Dollar,1842,high,"Confirmed via dealer listing (SKU 143801): ""1842 liberty seated s1 no motto ms64 plus""."
+training/143802fs.jpg,fs_auction_photo,Liberty Seated Dollar,Dollar,1844,high,"Confirmed via dealer listing (SKU 143802): ""1844 liberty seated s1 no motto ms64""."
+training/143803fs.jpg,fs_auction_photo,Liberty Seated Dollar,Dollar,1844,high,"Confirmed via dealer listing (SKU 143803): ""1844 liberty seated s1 no motto pr65""."
 training/143804fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1849,medium,
 training/143832fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1941,high,
-training/143839fs.jpg,fs_auction_photo,Panama-Pacific Commemorative Gold (octagonal) $50 Gold,$50 Gold,1915,medium,Bird/owl reverse design of the same 1915 Panama-Pacific $50 gold type as 135764fs.
+training/143839fs.jpg,fs_auction_photo,Panama-Pacific Commemorative Gold (octagonal) $50 Gold,$50 Gold,1852,high,"Confirmed via dealer listing (SKU 143839): ""1852 887 assay 50 au58""."
 training/143851fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1854,high,
 training/143868fs.jpg,fs_auction_photo,Washington Quarter,Quarter,,low,"Reads oddly like 1916, which predates the design's 1932 debut - likely misread (possibly 1936); needs verification."
 training/143916fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1863,high,
-training/143919fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1886,high,
-training/143927fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1802,medium,
+training/143919fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1886,high,"Confirmed via dealer listing (SKU 143919): ""1886 o morgan s1 ms65"", mint mark O."
+training/143927fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1802,high,"Confirmed via dealer listing (SKU 143927): ""1802 draped bust h10c au50""."
 training/143928fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1854,medium,
 training/143929fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1874,medium,
 training/143930fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1847,high,
-training/143945fs.jpg,fs_auction_photo,"Liberty Head (Coronet) $20 Gold (Double Eagle, likely)","$20 Gold (Double Eagle, likely)",1861,low,Gold coronet-head design; exact date uncertain.
+training/143945fs.jpg,fs_auction_photo,"Liberty Head (Coronet) $20 Gold (Double Eagle, likely)","$20 Gold (Double Eagle, likely)",1861,high,"Confirmed via dealer listing (SKU 143945): ""1861 s liberty head 20 paquet xf45"", mint mark S."
 training/143963fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1921,high,1921 is a key date for this series.
-training/143975fs.jpg,fs_auction_photo,Peace Dollar Dollar,Dollar,1926,high,
+training/143975fs.jpg,fs_auction_photo,Peace Dollar,Dollar,1926,high,"Confirmed via dealer listing (SKU 143975): ""1926 s peace 1 ms66 plus"", mint mark S."
 training/143989fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1813,high,
-training/144000fs.jpg,fs_auction_photo,Peace Dollar Dollar,Dollar,1925,high,
-training/144010fs.jpg,fs_auction_photo,Draped Bust / Flowing Hair transitional uncertain,uncertain,1794,low,
+training/144000fs.jpg,fs_auction_photo,Peace Dollar,Dollar,1925,high,"Confirmed via dealer listing (SKU 144000): ""1925 s peace 1 ms65"", mint mark S."
+training/144010fs.jpg,fs_auction_photo,Flowing Hair Half Dollar,Half Dollar,1794,high,"Confirmed via dealer listing (SKU 144010): ""1794 flowing hair 50c au55""."
 training/144011fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1936,high,
 training/144012fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1847,high,
-training/144013fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1852,medium,
+training/144013fs.jpg,fs_auction_photo,Liberty Seated Dollar,Dollar,1852,high,"Confirmed via dealer listing (SKU 144013): ""1852 liberty seated s1 restrike pr63""."
 training/144024fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dime,Dime,1867,medium,
 training/144029fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1870,medium,
 training/144041fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dime,Dime,1878,medium,
-training/144245fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1879,high,
-training/144266fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1897,high,
+training/144245fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1879,high,"Confirmed via dealer listing (SKU 144245): ""1879 cc morgan s1 capped die ms65"", mint mark CC."
+training/144266fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1897,high,"Confirmed via dealer listing (SKU 144266): ""1897 morgan s1 ms66 dmpl""."
 training/144321fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1874,medium,
 training/144394fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1855,medium,
 training/144395fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1870,low,Date partially legible.
 training/144398fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dime,Dime,1860,medium,
-training/144400fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1882,high,
+training/144400fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1882,high,"Confirmed via dealer listing (SKU 144400): ""1882 os morgan s1 os strong ms65""."
 training/144423fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1868,medium,
 training/144426fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1861,medium,
 training/144427fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1847,medium,
@@ -325,15 +325,15 @@ training/144432fs.jpg,fs_auction_photo,Capped Bust uncertain (half/dime),uncerta
 training/144474fs.jpg,fs_auction_photo,Mercury (Winged Liberty Head) Dime,Dime,1942,high,
 training/144475fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),,low,Date obscured by dark background lighting.
 training/144489fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1900,medium,
-training/144493fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1804,low,"Reads as 1804 - same rarity caveat as 138272fs; likely a museum/reference piece, not a coin in hand."
-training/144495fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1828,low,Date partially legible.
+training/144493fs.jpg,fs_auction_photo,Draped Bust Dime,Dime,1804,high,"Confirmed via dealer listing (SKU 144493): ""1804 draped bust 10c 14 stars reverse au53""."
+training/144495fs.jpg,fs_auction_photo,Capped Bust Quarter,Quarter,1836,high,"Confirmed via dealer listing (SKU 144495): ""1836 capped bust 25c ms65""."
 training/144496fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1873,medium,
-training/144497fs.jpg,fs_auction_photo,Flowing Hair Dollar,Dollar,1794,medium,"Reference example, not a coin in hand."
+training/144497fs.jpg,fs_auction_photo,Flowing Hair Half Dollar,Half Dollar,1794,high,"Confirmed via dealer listing (SKU 144497): ""1794 flowing hair 50c au58""."
 training/144498fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1834,high,
 training/144499fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1873,medium,
-training/144512fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),,low,"Photographed inside a certification slab; glare obscures the date, likely 1860s."
-training/144520fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1885,high,
-training/144528fs.jpg,fs_auction_photo,Capped Bust Half Dollar (lettered edge),Half Dollar (lettered edge),1811,high,
+training/144512fs.jpg,fs_auction_photo,Liberty Seated Dollar,Dollar,1864,high,"Confirmed via dealer listing (SKU 144512): ""1864 liberty seated s1 no motto ms65""."
+training/144520fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1885,high,"Confirmed via dealer listing (SKU 144520): ""1885 cc morgan s1 ms67 plus"", mint mark CC."
+training/144528fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1811,high,"Confirmed via dealer listing (SKU 144528): ""1811 capped bust 50c small 8 ms66 plus""."
 training/144534fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1860,medium,
 training/144558fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1909,medium,
 training/144565fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),,low,Date not legible.
@@ -345,35 +345,35 @@ training/144599fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain
 training/144600fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1860,medium,"Watermarked ""Imaged by Heritage Auctions"" - confirms these fs.jpg photos are auction-house reference images."
 training/144618fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1795,high,
 training/144619fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dime,Dime,1863,medium,
-training/144622fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1828,high,
-training/144623fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),,low,Date obscured.
+training/144622fs.jpg,fs_auction_photo,Capped Bust Quarter,Quarter,1828,high,"Confirmed via dealer listing (SKU 144622): ""1828 capped bust 25c pr65""."
+training/144623fs.jpg,fs_auction_photo,Liberty Seated Quarter,Quarter,1842,high,"Confirmed via dealer listing (SKU 144623): ""1842 o liberty seated 25c small date ms62 plus"", mint mark O."
 training/144624fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1870,medium,
-training/144626fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1797,high,
+training/144626fs.jpg,fs_auction_photo,Draped Bust Half Dollar,Half Dollar,1797,high,"Confirmed via dealer listing (SKU 144626): ""1797 draped bust 50c ms55 plus""."
 training/144631fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1798,low,Date partially legible.
 training/144632fs.jpg,fs_auction_photo,Capped Bust (reduced diameter) Dime,Dime,1834,medium,
 training/144638fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1921,high,Key date for this series.
 training/144647fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1848,medium,
-training/144651fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1868,medium,Proof-like dark-field photo.
+training/144651fs.jpg,fs_auction_photo,Liberty Seated Dollar,Dollar,1868,high,"Confirmed via dealer listing (SKU 144651): ""1868 liberty seated s1 motto pr66 plus deep cameo""."
 training/144656fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1916,high,First year of the design.
 training/144657fs.jpg,fs_auction_photo,Seated Liberty Half Dime (likely),Half Dime (likely),1836,low,"Date/denomination uncertain, small-size seated design."
-training/144663fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1797,high,
+training/144663fs.jpg,fs_auction_photo,Draped Bust Dime,Dime,1797,high,"Confirmed via dealer listing (SKU 144663): ""1797 draped bust 10c 13 stars ms62 plus""."
 training/144665fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1872,high,
-training/144666fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dime,Dime,1847,medium,
-training/144667fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1849,medium,
+training/144666fs.jpg,fs_auction_photo,Liberty Seated Dollar,Dollar,1847,high,"Confirmed via dealer listing (SKU 144666): ""1847 liberty seated s1 no motto pr64""."
+training/144667fs.jpg,fs_auction_photo,Liberty Seated Dollar,Dollar,1849,high,"Confirmed via dealer listing (SKU 144667): ""1849 liberty seated s1 no motto pr65""."
 training/144680fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1850,medium,
 training/144682fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1859,medium,
 training/144690fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dollar,Dollar,1874,high,
-training/144696fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1836,high,Final year of the Capped Bust Half Dollar before Seated Liberty replaced it.
+training/144696fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1836,high,"Confirmed via dealer listing (SKU 144696): ""1836 capped bust 50c 5000 lettered edge ms64 plus""."
 training/144714fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1891,high,Final year of the Seated Liberty quarter/half series.
 training/144716fs.jpg,fs_auction_photo,Trade Dollar Dollar,Dollar,1874,low,Date partially legible.
 training/144722fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1850,low,Date partially legible.
 training/144723fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1904,medium,
 training/144726fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1899,medium,
-training/144740fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1842,high,
-training/144743fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),,low,"Reads oddly like 1832, which predates the Seated Liberty design (introduced 1836-1840) - likely misread (possibly 1852/1862)."
+training/144740fs.jpg,fs_auction_photo,Liberty Seated Dollar,Dollar,1842,high,"Confirmed via dealer listing (SKU 144740): ""1842 liberty seated s1 no motto pr65""."
+training/144743fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1839,high,"Confirmed via dealer listing (SKU 144743): ""1839 gobrecht 1 j 104 res pr65""."
 training/144750fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1860,medium,
-training/144755fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1840,medium,
-training/144756fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1842,medium,
+training/144755fs.jpg,fs_auction_photo,Liberty Seated Quarter,Quarter,1840,high,"Confirmed via dealer listing (SKU 144755): ""1840 liberty seated 25c drapery ms64 plus""."
+training/144756fs.jpg,fs_auction_photo,Liberty Seated Quarter,Quarter,1842,high,"Confirmed via dealer listing (SKU 144756): ""1842 o liberty seated 25c small date ms61"", mint mark O."
 training/144757fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1852,medium,
 training/144762fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1856,low,Date partially legible.
 training/144764fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1870,high,
@@ -384,75 +384,75 @@ training/144770fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),u
 training/144771fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1855,medium,
 training/144774fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1873,medium,
 training/144776fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1878,medium,
-training/144784fs.jpg,fs_auction_photo,Panama-Pacific Commemorative Gold (octagonal) $50 Gold,$50 Gold,1915,medium,Same type as 135764fs/143839fs.
+training/144784fs.jpg,fs_auction_photo,Panama-Pacific Commemorative Gold (octagonal) $50 Gold,$50 Gold,1852,high,"Confirmed via dealer listing (SKU 144784): ""1852 887 assay 50 au58""."
 training/144785fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1870,medium,
 training/144870fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1873,medium,
-training/144871fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1807,high,First year of the Capped Bust Half Dollar.
+training/144871fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1807,high,"Confirmed via dealer listing (SKU 144871): ""1807 capped bust 50c large stars 5020 ms64 plus""."
 training/144872fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1907,medium,
 training/144891fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1854,medium,
-training/144894fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1796,high,
-training/144896fs.jpg,fs_auction_photo,Liberty Head Gold (Coronet) uncertain,uncertain,,low,"Date reads oddly like 1803, earlier than the Coronet gold design's ~1834 debut - likely misread."
-training/144903fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1858,medium,
+training/144894fs.jpg,fs_auction_photo,Draped Bust Dime,Dime,1796,high,"Confirmed via dealer listing (SKU 144894): ""1796 draped bust 10c small eagle ms66""."
+training/144896fs.jpg,fs_auction_photo,Capped Bust uncertain,uncertain,1808,high,"Confirmed via dealer listing (SKU 144896): ""1808 capped bust 25 au55""."
+training/144903fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1838,high,"Confirmed via dealer listing (SKU 144903): ""1838 s1 j 84 restrike pr65""."
 training/144911fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1857,medium,
-training/144921fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1897,high,
+training/144921fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1897,high,"Confirmed via dealer listing (SKU 144921): ""1897 o morgan s1 ms65"", mint mark O."
 training/144925fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1858,medium,
-training/144941fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1839,low,Date partially legible.
+training/144941fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1836,high,"Confirmed via dealer listing (SKU 144941): ""1836 gobrecht s1 pr64""."
 training/144960fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),,low,Date obscured by toning.
-training/144964fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1844,medium,
-training/144965fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1886,high,
+training/144964fs.jpg,fs_auction_photo,Liberty Seated Dollar,Dollar,1844,high,"Confirmed via dealer listing (SKU 144964): ""1844 liberty seated s1 no motto pr65""."
+training/144965fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1886,high,"Confirmed via dealer listing (SKU 144965): ""1886 o morgan s1 ms65"", mint mark O."
 training/144976fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1858,medium,
 training/144983fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1856,medium,
 training/145028fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1846,medium,
 training/145051fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1868,medium,
-training/145053fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1802,high,
-training/145071fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1840,medium,
-training/145072fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1841,medium,
+training/145053fs.jpg,fs_auction_photo,Draped Bust Half Dollar,Half Dollar,1802,high,"Confirmed via dealer listing (SKU 145053): ""1802 draped bust 50c ms62""."
+training/145071fs.jpg,fs_auction_photo,Liberty Seated Quarter,Quarter,1840,high,"Confirmed via dealer listing (SKU 145071): ""1840 liberty seated 25c drapery pr64""."
+training/145072fs.jpg,fs_auction_photo,Liberty Seated Quarter,Quarter,1841,high,"Confirmed via dealer listing (SKU 145072): ""1841 liberty seated 25c pr61""."
 training/145073fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),,low,Date not legible.
 training/145075fs.jpg,fs_auction_photo,Washington Quarter,Quarter,,low,Silver-era toning suggests pre-1965; exact date not legible.
 training/145076fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1842,medium,
 training/145077fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1849,medium,
 training/145078fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1852,medium,
-training/145083fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1856,medium,
+training/145083fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1836,high,"Confirmed via dealer listing (SKU 145083): ""1836 gobrecht s1 j 60 original   coin alignment pr65""."
 training/145084fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1843,medium,
 training/145085fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1848,medium,
 training/145122fs.jpg,fs_auction_photo,Capped Bust uncertain (half/dime),uncertain (half/dime),1837,low,Photographed inside a certification slab.
 training/145123fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1857,medium,
 training/145127fs.jpg,fs_auction_photo,Standing Liberty Quarter,Quarter,1918,low,Date partially legible.
 training/145131fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1851,medium,
-training/145132fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1889,high,
+training/145132fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1889,high,"Confirmed via dealer listing (SKU 145132): ""1889 cc morgan s1 ms64 plus"", mint mark CC."
 training/145139fs.jpg,fs_auction_photo,Liberty Head Gold (Coronet) $2.50 Quarter Eagle,$2.50 Quarter Eagle,1841,medium,"1841 quarter eagles are a famous major rarity (""Little Princess"") if genuine business-strike/proof - likely a museum reference photo, not a coin in hand."
-training/145188fs.jpg,fs_auction_photo,Continental Currency Dollar (pewter/brass),Dollar (pewter/brass),1776,high,Same type as other Continental Currency entries.
+training/145188fs.jpg,fs_auction_photo,Continental Dollar (pewter/brass),Dollar (pewter/brass),1776,high,"Confirmed via dealer listing (SKU 145188): ""1776 continental currency 1 curency pewter ms62""."
 training/145207fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1795,high,
 training/145208fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1863,high,
 training/145211fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1855,medium,
-training/145232fs.jpg,fs_auction_photo,Liberty Head Gold (Coronet) $20 Double Eagle,$20 Double Eagle,1861,medium,
+training/145232fs.jpg,fs_auction_photo,Liberty Head Gold (Coronet) $20 Double Eagle,$20 Double Eagle,1861,high,"Confirmed via dealer listing (SKU 145232): ""1861 s liberty head 20 paquet au53"", mint mark S."
 training/145244fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,,low,Photographed inside an NGC slab; date not legible in this crop.
 training/145255fs.jpg,fs_auction_photo,Mercury (Winged Liberty Head) Dime,Dime,1942,low,Date partially legible.
-training/145256fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1806,high,
+training/145256fs.jpg,fs_auction_photo,Draped Bust Quarter,Quarter,1806,high,"Confirmed via dealer listing (SKU 145256): ""1806 draped bust 25c heraldic eagle ms64""."
 training/145261fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1812,high,
 training/145262fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1798,high,
 training/145269fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1799,low,Date partially legible.
-training/145282fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1797,high,
+training/145282fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1797,high,"Confirmed via dealer listing (SKU 145282): ""1797 draped bust 1 9x7 large letters au58""."
 training/145287fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1834,low,Date partially legible.
 training/145313fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1918,low,Date partially legible.
 training/145316fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1858,medium,
 training/145328fs.jpg,fs_auction_photo,Washington Quarter,Quarter,,low,Silver-era toning suggests 1930s; exact date not legible.
-training/145336fs.jpg,fs_auction_photo,Panama-Pacific Commemorative Gold (round) $50 Gold,$50 Gold,1915,high,"Helmeted Liberty head + ""FIFTY DOLLARS"" matches the round-format companion to the octagonal 1915 Panama-Pacific $50 gold piece."
+training/145336fs.jpg,fs_auction_photo,Panama-Pacific Commemorative Gold (round) $50 Gold,$50 Gold,1915,high,"Confirmed via dealer listing (SKU 145336): ""1915 s gold 50 pan pac round ms65"", mint mark S."
 training/145349fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1840,medium,
 training/145351fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1865,medium,
 training/145441fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1921,high,Key date for this series.
 training/145504fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1814,low,Date partially legible.
 training/145508fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1795,high,
-training/145509fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1879,high,
-training/145511fs.jpg,fs_auction_photo,California Gold Rush souvenir token (non-federal) fractional gold token,fractional gold token,1879,medium,"Small size, weight-marked (""...GRAMS"") design typical of privately-minted California small-denomination gold tokens, not official U.S. coinage."
+training/145509fs.jpg,fs_auction_photo,Morgan Dollar,Dollar,1879,high,"Confirmed via dealer listing (SKU 145509): ""1879 cc morgan s1 capped die ms65"", mint mark CC."
+training/145511fs.jpg,fs_auction_photo,Flowing Hair fractional gold token,fractional gold token,1879,high,"Confirmed via dealer listing (SKU 145511): ""1879 4 stella flowing hair pr67 plus""."
 training/145532fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),,low,"Date not legible, worn."
 training/145554fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1913,medium,
 training/145563fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1856,low,Date partially legible.
 training/145565fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1840,medium,
 training/145568fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dollar (likely),Dollar (likely),1865,low,Dark-field proof-like photo.
-training/145570fs.jpg,fs_auction_photo,California Gold Rush souvenir token (non-federal) fractional gold token,fractional gold token,1879,medium,Same type as 145511fs.
-training/145571fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1820,medium,Photographed inside a certification slab.
-training/145572fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1795,high,
+training/145570fs.jpg,fs_auction_photo,Flowing Hair fractional gold token,fractional gold token,1879,high,"Confirmed via dealer listing (SKU 145570): ""1879 4 stella flowing hair pr65""."
+training/145571fs.jpg,fs_auction_photo,Capped Bust Dime,Dime,1820,high,"Confirmed via dealer listing (SKU 145571): ""1820 capped bust 10c small 0 ms67""."
+training/145572fs.jpg,fs_auction_photo,Flowing Hair Half Dollar,Half Dollar,1795,high,"Confirmed via dealer listing (SKU 145572): ""1795 flowing hair 50c ms63""."
 training/145576fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1851,low,Date partially legible.
 training/145578fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1806,low,Date partially legible.
 training/145579fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),,low,"Worn, date not legible."

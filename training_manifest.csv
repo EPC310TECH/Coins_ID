@@ -1,0 +1,572 @@
+file,source_type,class_label,denomination,year,confidence,notes
+training/0000029_draped-bust-dimes.png,series_reference,Draped Bust Dime,Dime,1796-1807,high,One reference image per design era - not a single date.
+training/0000030_capped-bust-dimes.png,series_reference,Capped Bust Dime,Dime,1809-1837,high,One reference image per design era - not a single date.
+training/0000031_liberty-seated-dimes.png,series_reference,Seated Liberty Dime,Dime,1837-1891,high,One reference image per design era - not a single date.
+training/0000032_barber-dimes.png,series_reference,Barber Dime,Dime,1892-1916,high,One reference image per design era - not a single date.
+training/0000033_mercury-dimes.png,series_reference,Mercury (Winged Liberty Head) Dime,Dime,1916-1945,high,One reference image per design era - not a single date.
+training/0000035_draped-bust-quarters.png,series_reference,Draped Bust Quarter,Quarter,1796-1807,high,One reference image per design era - not a single date.
+training/0000036_capped-bust-quarters.png,series_reference,Capped Bust Quarter,Quarter,1815-1838,high,One reference image per design era - not a single date.
+training/0000037_liberty-seated-quarters.png,series_reference,Seated Liberty Quarter,Quarter,1838-1891,high,One reference image per design era - not a single date.
+training/0000038_barber-quarters.png,series_reference,Barber Quarter,Quarter,1892-1916,high,One reference image per design era - not a single date.
+training/0000039_standing-liberty-quarters.png,series_reference,Standing Liberty Quarter,Quarter,1916-1930,high,One reference image per design era - not a single date.
+training/0000040_flowing-hair-half-dollars.png,series_reference,Flowing Hair Half Dollar,Half Dollar,1794-1795,high,One reference image per design era - not a single date.
+training/0000041_draped-bust-half-dollars.png,series_reference,Draped Bust Half Dollar,Half Dollar,1796-1807,high,One reference image per design era - not a single date.
+training/0000042_capped-bust-half-dollars.png,series_reference,Capped Bust Half Dollar,Half Dollar,1807-1839,high,One reference image per design era - not a single date.
+training/0000043_liberty-seated-half-dollars.png,series_reference,Seated Liberty Half Dollar,Half Dollar,1839-1891,high,One reference image per design era - not a single date.
+training/0000044_barber-half-dollars.png,series_reference,Barber Half Dollar,Half Dollar,1892-1915,high,One reference image per design era - not a single date.
+training/0000045_walking-liberty-half-dollars.png,series_reference,Walking Liberty Half Dollar,Half Dollar,1916-1947,high,One reference image per design era - not a single date.
+training/0000046_flowing-hair-dollars.png,series_reference,Flowing Hair Dollar,Dollar,1794-1795,high,One reference image per design era - not a single date.
+training/0000047_draped-bust-dollars.png,series_reference,Draped Bust Dollar,Dollar,1795-1804,high,One reference image per design era - not a single date.
+training/0000048_liberty-seated-dollars.png,series_reference,Seated Liberty Dollar,Dollar,1840-1873,high,One reference image per design era - not a single date.
+training/0000049_trade-dollars.png,series_reference,Trade Dollar Dollar,Dollar,1873-1885,high,One reference image per design era - not a single date.
+training/0000050_morgan-dollars.png,series_reference,Morgan Dollar Dollar,Dollar,1878-1921,high,One reference image per design era - not a single date.
+training/0000051_peace-dollars.png,series_reference,Peace Dollar Dollar,Dollar,1921-1935,high,One reference image per design era - not a single date.
+training/1804-dollar-gold-obverse.jpg,named_reference,1804 Gold Dollar (pattern/restrike reference) (obverse),bullion/proof/commemorative product,1804,high,
+training/1804-dollar-gold-reverse.jpg,named_reference,1804 Gold Dollar (pattern/restrike reference) (reverse),bullion/proof/commemorative product,1804,high,
+training/1907-saint-gaudens-semiq-gold-obverse.jpg,named_reference,Saint-Gaudens $2.50 gold pattern reference (obverse),bullion/proof/commemorative product,1907,high,
+training/1907-saint-gaudens-semiq-gold-reverse.jpg,named_reference,Saint-Gaudens $2.50 gold pattern reference (reverse),bullion/proof/commemorative product,1907,high,
+training/2023-american-eagle-palladium-one-ounce-bullion-coin-obverse.jpg,named_reference,American Eagle Palladium Bullion (obverse),bullion/proof/commemorative product,2023,high,
+training/2023-american-eagle-palladium-one-ounce-bullion-coin-reverse.jpg,named_reference,American Eagle Palladium Bullion (reverse),bullion/proof/commemorative product,2023,high,
+training/2023-american-eagle-palladium-one-ounce-uncirculated-coin-obverse.jpg,named_reference,American Eagle Palladium Uncirculated (obverse),bullion/proof/commemorative product,2023,high,
+training/2023-american-eagle-palladium-one-ounce-uncirculated-coin-reverse.jpg,named_reference,American Eagle Palladium Uncirculated (reverse),bullion/proof/commemorative product,2023,high,
+training/2023-american-eagle-platinum-one-ounce-bullion-coin-obverse.jpg,named_reference,American Eagle Platinum Bullion (obverse),bullion/proof/commemorative product,2023,high,
+training/2023-american-eagle-platinum-one-ounce-bullion-coin-reverse.jpg,named_reference,American Eagle Platinum Bullion (reverse),bullion/proof/commemorative product,2023,high,
+training/2024-american-eagle-palladium-one-ounce-proof-coin-obverse.jpg,named_reference,American Eagle Palladium Proof (obverse),bullion/proof/commemorative product,2024,high,
+training/2024-american-eagle-palladium-one-ounce-proof-coin-reverse.jpg,named_reference,American Eagle Palladium Proof (reverse),bullion/proof/commemorative product,2024,high,
+training/2025 American Liberty 1oz Gold Obv 2000x2000.jpg,named_reference,American Liberty 1oz Gold (obverse),bullion/proof/commemorative product,2025,high,
+training/2025 American Liberty 1oz Gold Rev 2000x2000.jpg,named_reference,American Liberty 1oz Gold (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-Batman-Gold-Proof-Coin-Obverse.jpg,named_reference,Batman Commemorative Gold Proof (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-Batman-Gold-Proof-Coin-Reverse.jpg,named_reference,Batman Commemorative Gold Proof (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-Morgan-Proof-Obverse.jpg,named_reference,Morgan Dollar Proof (modern reissue) (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-Morgan-Proof-Reverse.jpg,named_reference,Morgan Dollar Proof (modern reissue) (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-Morgan-Unc-Obverse.jpg,named_reference,Morgan Dollar Uncirculated (modern reissue) (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-Morgan-Unc-Reverse.jpg,named_reference,Morgan Dollar Uncirculated (modern reissue) (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-Peace-Proof-Obverse.jpg,named_reference,Peace Dollar Proof (modern reissue) (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-Peace-Proof-Reverse.jpg,named_reference,Peace Dollar Proof (modern reissue) (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-Peace-Unc-Obverse.jpg,named_reference,Peace Dollar Uncirculated (modern reissue) (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-Peace-Unc-Reverse.jpg,named_reference,Peace Dollar Uncirculated (modern reissue) (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-Superman-Gold-Obverse.jpg,named_reference,Superman Commemorative Gold (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-Superman-Gold-Reverse.jpg,named_reference,Superman Commemorative Gold (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-Wonder-Woman-Gold-Proof-Coin-Obverse.jpg,named_reference,Wonder Woman Commemorative Gold Proof (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-Wonder-Woman-Gold-Proof-Coin-Reverse.jpg,named_reference,Wonder Woman Commemorative Gold Proof (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-buffalo-one-ounce-gold-proof-coin-obverse.jpg,named_reference,American Buffalo Gold Proof (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-buffalo-one-ounce-gold-proof-coin-reverse.jpg,named_reference,American Buffalo Gold Proof (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-gold-one-ounce-proof-coin-obverse.jpg,named_reference,American Eagle Gold Proof (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-gold-one-ounce-proof-coin-reverse.jpg,named_reference,American Eagle Gold Proof (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-gold-one-ounce-uncirculated-coin-obverse.jpg,named_reference,American Eagle Gold Uncirculated (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-gold-one-ounce-uncirculated-coin-reverse.jpg,named_reference,American Eagle Gold Uncirculated (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-laser-privy-silver-proof-obverse.jpg,named_reference,American Eagle Silver Proof (Laser Privy) (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-laser-privy-silver-proof-reverse.jpg,named_reference,American Eagle Silver Proof (Laser Privy) (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-palladium-reverse-proof-obverse.jpg,named_reference,American Eagle Palladium Reverse Proof (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-palladium-reverse-proof-reverse.jpg,named_reference,American Eagle Palladium Reverse Proof (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-platinum-proof-coin-obverse.jpg,named_reference,American Eagle Platinum Proof (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-platinum-proof-coin-reverse.jpg,named_reference,American Eagle Platinum Proof (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-silver-one-ounce-uncirculated-coin-obverse.jpg,named_reference,American Eagle Silver Uncirculated (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-silver-one-ounce-uncirculated-coin-reverse.jpg,named_reference,American Eagle Silver Uncirculated (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-silver-proof-army-privy-obverse.jpg,named_reference,American Eagle Silver Proof (Army Privy) (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-silver-proof-army-privy-reverse.jpg,named_reference,American Eagle Silver Proof (Army Privy) (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-silver-proof-navy-privy-obverse.jpg,named_reference,American Eagle Silver Proof (Navy Privy) (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-silver-proof-navy-privy-reverse.jpg,named_reference,American Eagle Silver Proof (Navy Privy) (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-silver-proof-usmc-privy-obverse.jpg,named_reference,American Eagle Silver Proof (USMC Privy) (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-american-eagle-silver-proof-usmc-privy-reverse.jpg,named_reference,American Eagle Silver Proof (USMC Privy) (reverse),bullion/proof/commemorative product,2025,high,
+training/2025-native-american-one-dollar-uncirculated-coin-obverse.jpg,named_reference,Native American $1 Uncirculated (obverse),bullion/proof/commemorative product,2025,high,
+training/2025-native-american-one-dollar-uncirculated-coin-reverse.jpg,named_reference,Native American $1 Uncirculated (reverse),bullion/proof/commemorative product,2025,high,
+training/AE-Gold-Enhanced-Unc-Obverse.jpg,named_reference,American Eagle Gold Enhanced Uncirculated (obverse),bullion/proof/commemorative product,,high,
+training/AE-Gold-Enhanced-Unc-Reverse.jpg,named_reference,American Eagle Gold Enhanced Uncirculated (reverse),bullion/proof/commemorative product,,high,
+training/AE-Silver-Enhanced-Unc-Obverse.jpg,named_reference,American Eagle Silver Enhanced Uncirculated (obverse),bullion/proof/commemorative product,,high,
+training/AE-Silver-Enhanced-Unc-Reverse.jpg,named_reference,American Eagle Silver Enhanced Uncirculated (reverse),bullion/proof/commemorative product,,high,
+training/AE-Silver-Proof-Obverse.jpg,named_reference,American Eagle Silver Proof (obverse),bullion/proof/commemorative product,,high,
+training/AE-Silver-Proof-Reverse.jpg,named_reference,American Eagle Silver Proof (reverse),bullion/proof/commemorative product,,high,
+training/American-Buffalo-Gold-Bullion-Obverse.jpg,named_reference,American Buffalo Gold Bullion (obverse),bullion/proof/commemorative product,,high,
+training/American-Buffalo-Gold-Bullion-Reverse.jpg,named_reference,American Buffalo Gold Bullion (reverse),bullion/proof/commemorative product,,high,
+training/American-Buffalo-Proof-Gold-Obverse.jpg,named_reference,American Buffalo Gold Proof (obverse),bullion/proof/commemorative product,,high,
+training/American-Buffalo-Proof-Gold-Reverse.jpg,named_reference,American Buffalo Gold Proof (reverse),bullion/proof/commemorative product,,high,
+training/American-Eagle-Gold-Bullion-1oz-Obverse.jpg,named_reference,American Eagle Gold Bullion (1oz) (obverse),bullion/proof/commemorative product,,high,
+training/American-Eagle-Gold-Bullion-1oz-Reverse.jpg,named_reference,American Eagle Gold Bullion (1oz) (reverse),bullion/proof/commemorative product,,high,
+training/American-Eagle-Gold-Proof-Obverse.jpg,named_reference,American Eagle Gold Proof (obverse),bullion/proof/commemorative product,,high,
+training/American-Eagle-Gold-Proof-Reverse.jpg,named_reference,American Eagle Gold Proof (reverse),bullion/proof/commemorative product,,high,
+training/American-Eagle-Palladium-Unc-Obverse.jpg,named_reference,American Eagle Palladium Uncirculated (obverse),bullion/proof/commemorative product,,high,
+training/American-Eagle-Palladium-Unc-Reverse.jpg,named_reference,American Eagle Palladium Uncirculated (reverse),bullion/proof/commemorative product,,high,
+training/American-Eagle-Platinum-Proof-Obverse.jpg,named_reference,American Eagle Platinum Proof (obverse),bullion/proof/commemorative product,,high,
+training/American-Eagle-Platinum-Proof-Reverse.jpg,named_reference,American Eagle Platinum Proof (reverse),bullion/proof/commemorative product,,high,
+training/American-Eagle-Silver-Bullion-Obverse.jpg,named_reference,American Eagle Silver Bullion (obverse),bullion/proof/commemorative product,,high,
+training/American-Eagle-Silver-Bullion-Reverse.jpg,named_reference,American Eagle Silver Bullion (reverse),bullion/proof/commemorative product,,high,
+training/American-Eagle-Silver-Proof-Privy-Obverse.jpg,named_reference,American Eagle Silver Proof (Privy Mark) (obverse),bullion/proof/commemorative product,,high,
+training/American-Eagle-Silver-Proof-Privy-Reverse.jpg,named_reference,American Eagle Silver Proof (Privy Mark) (reverse),bullion/proof/commemorative product,,high,
+training/American-Innovation-Unc-Obverse.jpg,named_reference,American Innovation Dollar (obverse (shared across all states)),bullion/proof/commemorative product,,high,
+training/American-Innovation-Unc-Reverse-California.jpg,named_reference,American Innovation Dollar - California (reverse),bullion/proof/commemorative product,,high,
+training/American-Innovation-Unc-Reverse-Iowa.jpg,named_reference,American Innovation Dollar - Iowa (reverse),bullion/proof/commemorative product,,high,
+training/American-Innovation-Unc-Reverse-Minnesota.jpg,named_reference,American Innovation Dollar - Minnesota (reverse),bullion/proof/commemorative product,,high,
+training/American-Innovation-Unc-Reverse-Wisconsin.jpg,named_reference,American Innovation Dollar - Wisconsin (reverse),bullion/proof/commemorative product,,high,
+training/115168fs.jpg,fs_auction_photo,Liberty Seated uncertain (dime/quarter/half),uncertain (dime/quarter/half),1844,medium,Shield-and-branch Seated Liberty obverse; denomination not visible in this crop.
+training/120703fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1801,medium,Large-size Draped Bust obverse consistent with a dollar.
+training/121514fs.jpg,fs_auction_photo,Seated Liberty / Trade Dollar style Dollar (likely Trade Dollar),Dollar (likely Trade Dollar),1878,low,"Full-figure seated Liberty with pole/cap; 1878 postdates the regular Seated Dollar series (ended 1873), suggesting Trade Dollar."
+training/121564fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1899,medium,"""IN GOD WE TRUST"" arch present, rules out Barber dime."
+training/122773fs.jpg,fs_auction_photo,Seated Liberty / Trade Dollar style Dollar (likely Trade Dollar),Dollar (likely Trade Dollar),1877,low,Same style as 121514fs; 1877 is within the Trade Dollar era.
+training/124971fs.jpg,fs_auction_photo,Draped Bust Half Dollar (likely),Half Dollar (likely),1806,medium,"Draped Bust obverse with stars, heraldic-eagle era."
+training/128257fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1832,high,
+training/129606fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1898,medium,"""IN GOD WE TRUST"" arch present."
+training/133070fs.jpg,fs_auction_photo,Barber-style Liberty head uncertain,uncertain,,low,"Date largely illegible, appears to read ~189X."
+training/133077fs.jpg,fs_auction_photo,Seated Liberty Dollar (likely),Dollar (likely),1857,medium,"Full-figure seated design with flag/pole, large size consistent with a dollar."
+training/134155fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1814,high,
+training/134255fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1798,high,"Large size, draped bust with stars."
+training/134407fs.jpg,fs_auction_photo,Capped Bust uncertain (half/quarter),uncertain (half/quarter),,low,"Turban/cap design, date not fully legible (~181X)."
+training/134481fs.jpg,fs_auction_photo,"Coronet/Liberty head, ""E PLURIBUS UNUM"" uncertain - possibly gold ($1/$2.50)",uncertain - possibly gold ($1/$2.50),1838,low,Motto placement suggests an early gold type rather than silver; not confidently identified.
+training/134498fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1874,medium,Arrows at date typical of the 1873-1874 weight-standard change.
+training/134672fs.jpg,fs_auction_photo,"Coronet/Liberty head, ""E PLURIBUS UNUM"" uncertain - possibly gold",uncertain - possibly gold,1890,low,Same ambiguous motto placement as 134481fs; not confidently identified.
+training/134720fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1840,medium,
+training/134729fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1859,medium,
+training/134864fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1842,medium,
+training/134872fs.jpg,fs_auction_photo,Capped Bust uncertain (half/quarter),uncertain (half/quarter),1840,low,Date partially legible.
+training/135367fs.jpg,fs_auction_photo,Flowing Hair Dollar (likely),Dollar (likely),1794,medium,"1794 falls in the Flowing Hair Dollar's only mintage years (1794-1795) - if genuine this is an extremely rare/valuable reference example, not one of the user's own coins."
+training/135616fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1820,high,
+training/135641fs.jpg,fs_auction_photo,Barber uncertain (quarter/half/dime),uncertain (quarter/half/dime),1896,medium,
+training/135652fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1868,medium,
+training/135760fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1840,medium,
+training/135761fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1850,medium,
+training/135762fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1843,medium,
+training/135764fs.jpg,fs_auction_photo,Panama-Pacific Commemorative Gold (octagonal) $50 Gold,$50 Gold,1915,high,"Octagonal shape + ""FIFTY DOLLARS"" + helmeted Liberty head matches the 1915 Panama-Pacific Exposition $50 gold commemorative."
+training/135780fs.jpg,fs_auction_photo,Capped Bust uncertain (half/quarter),uncertain (half/quarter),,low,"Date partially legible, appears to be 182X."
+training/135873fs.jpg,fs_auction_photo,Draped Bust uncertain (dollar/half),uncertain (dollar/half),1795,medium,
+training/136298fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1865,medium,
+training/136828fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1917,high,Distinctive full-figure walking Liberty design.
+training/136838fs.jpg,fs_auction_photo,Draped Bust uncertain (likely half dollar),uncertain (likely half dollar),1806,medium,
+training/136839fs.jpg,fs_auction_photo,"Capped Bust uncertain (likely half dollar, lettered edge)","uncertain (likely half dollar, lettered edge)",1818,medium,
+training/136840fs.jpg,fs_auction_photo,Seated Liberty (no-drapery style) uncertain (dime/half dime),uncertain (dime/half dime),1845,medium,"Stars fully surround the seated figure, consistent with the smaller no-drapery Seated Liberty dies."
+training/136843fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1834,high,
+training/136979fs.jpg,fs_auction_photo,Capped Bust uncertain (likely half dollar),uncertain (likely half dollar),,low,Date not legible.
+training/137244fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1839,medium,
+training/137256fs.jpg,fs_auction_photo,Capped Bust uncertain (likely half dollar),uncertain (likely half dollar),1812,medium,
+training/137442fs.jpg,fs_auction_photo,Standing Liberty Quarter,Quarter,1917,high,"Distinctive standing Liberty with shield and ""IN GOD WE TRUST"" - first-year Type 1 (exposed breast) design."
+training/137443fs.jpg,fs_auction_photo,Capped Bust uncertain (likely half dollar),uncertain (likely half dollar),1818,low,Date partially legible.
+training/137457fs.jpg,fs_auction_photo,Draped Bust uncertain (likely dollar),uncertain (likely dollar),1798,low,Date partially legible.
+training/137474fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1829,high,
+training/137651fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1830,high,
+training/137663fs.jpg,fs_auction_photo,Draped Bust uncertain (likely dollar),uncertain (likely dollar),1801,low,Date partially legible.
+training/137664fs.jpg,fs_auction_photo,Seated Liberty (no-drapery style) Dime (likely),Dime (likely),1868,medium,
+training/137668fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1890,medium,
+training/138272fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1804,low,"Reads as 1804 - if genuine this would be the famous/extremely rare 1804 dollar; far more likely this is a museum/reference restrike photo rather than a coin actually in hand. Treat with skepticism, not as a real find."
+training/138273fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1821,high,
+training/138345fs.jpg,fs_auction_photo,Trade Dollar Dollar,Dollar,1876,high,"Distinctive seated-on-bale-of-cotton design with wheat sheaf, extended arm - matches the Trade Dollar type specifically (not the regular Seated Dollar)."
+training/138611fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1830,high,
+training/138661fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1824,medium,Date partially legible.
+training/138676fs.jpg,fs_auction_photo,Seated Liberty (no-drapery style) Dime (likely),Dime (likely),1869,medium,
+training/138684fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1796,high,
+training/138746fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1819,high,
+training/138747fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1829,high,
+training/138768fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1881,high,Distinctive coiled-hair Liberty head + wreath design.
+training/138857fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1905,low,Date partially legible.
+training/138998fs.jpg,fs_auction_photo,Seated Liberty / Trade Dollar style Dollar,Dollar,1873,low,Date partially legible.
+training/139003fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1856,medium,
+training/139004fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1831,high,
+training/139006fs.jpg,fs_auction_photo,Capped Bust (reduced diameter) uncertain (dime),uncertain (dime),1821,medium,
+training/139109fs.jpg,fs_auction_photo,Capped Bust (reduced diameter) uncertain (dime/quarter),uncertain (dime/quarter),1825,medium,
+training/139113fs.jpg,fs_auction_photo,Capped Bust (reduced diameter) uncertain (dime/quarter),uncertain (dime/quarter),1822,medium,
+training/139351fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1874,medium,
+training/139551fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1831,high,
+training/139567fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1799,low,Date partially legible.
+training/139569fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1845,medium,
+training/139570fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1798,high,
+training/139747fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1859,medium,
+training/139871fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1867,medium,
+training/139975fs.jpg,fs_auction_photo,Capped Bust uncertain (likely half dollar),uncertain (likely half dollar),,low,Date not legible.
+training/140326fs.jpg,fs_auction_photo,Mercury (Winged Liberty Head) Dime,Dime,1916,medium,Distinctive winged-cap Liberty head + fasces design; exact date digit uncertain.
+training/140328fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1859,low,Date uncertain.
+training/140335fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1808,medium,Date partially legible.
+training/140341fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1806,low,Date partially legible.
+training/140357fs.jpg,fs_auction_photo,Seated Liberty (Arrows) Quarter (likely),Quarter (likely),1853,medium,
+training/140368fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1888,high,
+training/140373fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1895,medium,
+training/140376fs.jpg,fs_auction_photo,Seated Liberty / Trade Dollar style Dollar,Dollar,1885,low,"1885 postdates the regular Seated Dollar series (ended 1873) - if a Trade Dollar, 1885 is an extreme rarity (proof-only); treat with skepticism rather than as a real find."
+training/140385fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1799,medium,
+training/140410fs.jpg,fs_auction_photo,Capped Bust (reduced diameter) uncertain (dime/quarter),uncertain (dime/quarter),,low,Date not legible.
+training/140580fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1795,medium,
+training/140585fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1846,medium,
+training/140621fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1852,medium,
+training/140662fs.jpg,fs_auction_photo,Seated Liberty / Trade Dollar style Dollar,Dollar,1878,low,
+training/140692fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),,low,Date not legible.
+training/140824fs.jpg,fs_auction_photo,Capped Bust (reduced diameter) uncertain (dime/quarter),uncertain (dime/quarter),1818,medium,
+training/140825fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1806,low,Date partially legible.
+training/140826fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1874,medium,
+training/140834fs.jpg,fs_auction_photo,Seated Liberty uncertain (dime/half dime),uncertain (dime/half dime),1837,medium,
+training/140868fs.jpg,fs_auction_photo,Seated Liberty uncertain (half dollar/quarter/dime),uncertain (half dollar/quarter/dime),1839,medium,
+training/140936fs.jpg,fs_auction_photo,Seated Liberty uncertain (dime/quarter),uncertain (dime/quarter),1884,medium,
+training/140937fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1805,medium,
+training/140974fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1873,medium,
+training/141155fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1850,medium,
+training/141216fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1805,low,Date partially legible.
+training/141225fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1866,medium,
+training/141228fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1820,high,
+training/141619fs.jpg,fs_auction_photo,Barber Half Dollar (likely),Half Dollar (likely),1903,medium,
+training/141915fs.jpg,fs_auction_photo,Seated Liberty uncertain (dime/half dime),uncertain (dime/half dime),1838,medium,
+training/141917fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,,low,"Design certain, date not clearly legible (~1890s)."
+training/142157fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1849,medium,
+training/142265fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1801,low,Date partially legible.
+training/142267fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1805,medium,
+training/142268fs.jpg,fs_auction_photo,Seated Liberty Dime (likely),Dime (likely),1885,low,Date partially legible.
+training/142269fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1914,medium,
+training/142270fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1900,medium,
+training/142271fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1847,medium,
+training/142283fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1834,medium,Date partially legible.
+training/142333fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1859,medium,
+training/142343fs.jpg,fs_auction_photo,"Seated Liberty (full legend, Arrows?) uncertain (dime)",uncertain (dime),1871,low,"""UNITED STATES OF AMERICA"" legend obverse variant; denomination/date uncertain."
+training/142344fs.jpg,fs_auction_photo,Seated Liberty (Arrows) Quarter (likely),Quarter (likely),1854,medium,
+training/142397fs.jpg,fs_auction_photo,uncertain bust type uncertain,uncertain,1859,low,"Hairstyle resembles Draped Bust but 1859 postdates that series - date or design may be misread, needs verification."
+training/142460fs.jpg,fs_auction_photo,Continental Currency Dollar (pewter/brass),Dollar (pewter/brass),1776,high,"Distinctive sundial design + ""CONTINENTAL CURRENCY"" text - a famous/rare early American issue; almost certainly a reference photo, not a coin actually in hand."
+training/142473fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1870,medium,
+training/142495fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1861,medium,
+training/142496fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1870,medium,
+training/142497fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1873,medium,
+training/142513fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1871,medium,
+training/142539fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dime (likely),Dime (likely),1860,medium,
+training/142542fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1821,high,
+training/142543fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1856,low,Date partially legible.
+training/142545fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1844,medium,
+training/142553fs.jpg,fs_auction_photo,Barber (full legend) uncertain (dime/quarter/half),uncertain (dime/quarter/half),1892,high,1892 is the first year of the Barber design.
+training/142586fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1824,high,
+training/142587fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1857,medium,
+training/142608fs.jpg,fs_auction_photo,Indian Princess Head Gold uncertain ($1 or $2.50 gold),uncertain ($1 or $2.50 gold),,medium,Feathered-headdress Liberty design; date not visible in this crop.
+training/142636fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1858,medium,
+training/142640fs.jpg,fs_auction_photo,Peace Dollar Dollar,Dollar,,medium,Distinctive radiate-crown Liberty head; exact date (~1930s) not fully legible.
+training/142745fs.jpg,fs_auction_photo,Continental Currency Dollar (pewter/brass),Dollar (pewter/brass),1776,high,Same type as 142460fs.
+training/142761fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),,low,Date not legible.
+training/142763fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1806,medium,
+training/142932fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1832,low,Date partially legible.
+training/142991fs.jpg,fs_auction_photo,Mercury (Winged Liberty Head) Dime,Dime,,low,"Date reads oddly like 1912, which predates the design's 1916 debut - likely misread (possibly 1942); needs verification."
+training/142994fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1859,medium,
+training/142995fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1857,medium,
+training/142997fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1904,low,Date partially legible.
+training/142998fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,,medium,Date not legible in this crop.
+training/142999fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1798,high,
+training/143023fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1806,medium,
+training/143030fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1803,medium,
+training/143031fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1866,medium,
+training/143044fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1798,high,
+training/143045fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1831,high,
+training/143055fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1871,medium,
+training/143097fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,,low,Date not clearly legible.
+training/143111fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1802,low,Date partially legible.
+training/143113fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1849,medium,
+training/143114fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1846,medium,
+training/143123fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1812,low,Date partially legible.
+training/143146fs.jpg,fs_auction_photo,Capped Bust (reduced diameter) Dime,Dime,1828,medium,
+training/143148fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1898,medium,
+training/143149fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1829,high,
+training/143150fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1838,high,
+training/143156fs.jpg,fs_auction_photo,Seated Liberty (full legend) uncertain (quarter/half),uncertain (quarter/half),1854,medium,
+training/143175fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1844,medium,
+training/143184fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1888,high,
+training/143195fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1817,high,
+training/143242fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1909,medium,
+training/143288fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1861,medium,
+training/143332fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1859,medium,
+training/143334fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1865,medium,
+training/143378fs.jpg,fs_auction_photo,Mercury (Winged Liberty Head) Dime,Dime,1942,high,
+training/143388fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1897,high,
+training/143399fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dollar,Dollar,1864,medium,
+training/143404fs.jpg,fs_auction_photo,Trade Dollar Dollar,Dollar,1873,high,First year of the Trade Dollar series.
+training/143408fs.jpg,fs_auction_photo,Trade Dollar Dollar,Dollar,1875,medium,
+training/143413fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1899,medium,
+training/143486fs.jpg,fs_auction_photo,Continental Currency Dollar (pewter/brass),Dollar (pewter/brass),1776,high,"Reverse side (""MIND YOUR BUSINESS"", sundial/FUGIO) of the same Continental Dollar type as 142460fs/142745fs."
+training/143489fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1855,medium,
+training/143490fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1815,high,
+training/143508fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dime),uncertain (quarter/half/dime),1882,medium,
+training/143545fs.jpg,fs_auction_photo,Shield Nickel Nickel (5 cents),Nickel (5 cents),1867,high,Distinctive shield-and-rays design.
+training/143547fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1890,high,
+training/143550fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,,low,"Date partially legible, likely late 1910s."
+training/143580fs.jpg,fs_auction_photo,Capped Bust Half Dollar (lettered edge),Half Dollar (lettered edge),1809,high,
+training/143581fs.jpg,fs_auction_photo,Trade Dollar Dollar,Dollar,1875,medium,
+training/143599fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1859,medium,
+training/143710fs.jpg,fs_auction_photo,Continental Currency Dollar (pewter/brass),Dollar (pewter/brass),1776,high,Same type as 142460fs/142745fs/143486fs.
+training/143735fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1916,high,First year of the design.
+training/143741fs.jpg,fs_auction_photo,Flowing Hair Dollar,Dollar,1794,medium,"Reference example of the extremely rare first-year U.S. silver dollar, not a coin actually in hand."
+training/143742fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1820,high,
+training/143743fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1895,low,Date partially legible.
+training/143789fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1841,medium,
+training/143798fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1852,low,Date partially legible.
+training/143799fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1846,medium,
+training/143801fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1842,high,
+training/143802fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1844,high,
+training/143803fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1844,medium,
+training/143804fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1849,medium,
+training/143832fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1941,high,
+training/143839fs.jpg,fs_auction_photo,Panama-Pacific Commemorative Gold (octagonal) $50 Gold,$50 Gold,1915,medium,Bird/owl reverse design of the same 1915 Panama-Pacific $50 gold type as 135764fs.
+training/143851fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1854,high,
+training/143868fs.jpg,fs_auction_photo,Washington Quarter,Quarter,,low,"Reads oddly like 1916, which predates the design's 1932 debut - likely misread (possibly 1936); needs verification."
+training/143916fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1863,high,
+training/143919fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1886,high,
+training/143927fs.jpg,fs_auction_photo,Draped Bust uncertain,uncertain,1802,medium,
+training/143928fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1854,medium,
+training/143929fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1874,medium,
+training/143930fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1847,high,
+training/143945fs.jpg,fs_auction_photo,"Liberty Head (Coronet) $20 Gold (Double Eagle, likely)","$20 Gold (Double Eagle, likely)",1861,low,Gold coronet-head design; exact date uncertain.
+training/143963fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1921,high,1921 is a key date for this series.
+training/143975fs.jpg,fs_auction_photo,Peace Dollar Dollar,Dollar,1926,high,
+training/143989fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1813,high,
+training/144000fs.jpg,fs_auction_photo,Peace Dollar Dollar,Dollar,1925,high,
+training/144010fs.jpg,fs_auction_photo,Draped Bust / Flowing Hair transitional uncertain,uncertain,1794,low,
+training/144011fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1936,high,
+training/144012fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1847,high,
+training/144013fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1852,medium,
+training/144024fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dime,Dime,1867,medium,
+training/144029fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1870,medium,
+training/144041fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dime,Dime,1878,medium,
+training/144245fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1879,high,
+training/144266fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1897,high,
+training/144321fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1874,medium,
+training/144394fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1855,medium,
+training/144395fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1870,low,Date partially legible.
+training/144398fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dime,Dime,1860,medium,
+training/144400fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1882,high,
+training/144423fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1868,medium,
+training/144426fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1861,medium,
+training/144427fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1847,medium,
+training/144432fs.jpg,fs_auction_photo,Capped Bust uncertain (half/dime),uncertain (half/dime),,low,"Date reads oddly like 1840, which is late for this design - likely misread (possibly 1830/1834)."
+training/144474fs.jpg,fs_auction_photo,Mercury (Winged Liberty Head) Dime,Dime,1942,high,
+training/144475fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),,low,Date obscured by dark background lighting.
+training/144489fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1900,medium,
+training/144493fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1804,low,"Reads as 1804 - same rarity caveat as 138272fs; likely a museum/reference piece, not a coin in hand."
+training/144495fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1828,low,Date partially legible.
+training/144496fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1873,medium,
+training/144497fs.jpg,fs_auction_photo,Flowing Hair Dollar,Dollar,1794,medium,"Reference example, not a coin in hand."
+training/144498fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1834,high,
+training/144499fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1873,medium,
+training/144512fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),,low,"Photographed inside a certification slab; glare obscures the date, likely 1860s."
+training/144520fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1885,high,
+training/144528fs.jpg,fs_auction_photo,Capped Bust Half Dollar (lettered edge),Half Dollar (lettered edge),1811,high,
+training/144534fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1860,medium,
+training/144558fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1909,medium,
+training/144565fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),,low,Date not legible.
+training/144574fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1880,medium,
+training/144579fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1846,medium,
+training/144593fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1902,medium,
+training/144594fs.jpg,fs_auction_photo,Barber Half Dollar (likely),Half Dollar (likely),1909,medium,
+training/144599fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1897,low,Date partially legible.
+training/144600fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1860,medium,"Watermarked ""Imaged by Heritage Auctions"" - confirms these fs.jpg photos are auction-house reference images."
+training/144618fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1795,high,
+training/144619fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dime,Dime,1863,medium,
+training/144622fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1828,high,
+training/144623fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),,low,Date obscured.
+training/144624fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1870,medium,
+training/144626fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1797,high,
+training/144631fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1798,low,Date partially legible.
+training/144632fs.jpg,fs_auction_photo,Capped Bust (reduced diameter) Dime,Dime,1834,medium,
+training/144638fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1921,high,Key date for this series.
+training/144647fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1848,medium,
+training/144651fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1868,medium,Proof-like dark-field photo.
+training/144656fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1916,high,First year of the design.
+training/144657fs.jpg,fs_auction_photo,Seated Liberty Half Dime (likely),Half Dime (likely),1836,low,"Date/denomination uncertain, small-size seated design."
+training/144663fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1797,high,
+training/144665fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1872,high,
+training/144666fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dime,Dime,1847,medium,
+training/144667fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1849,medium,
+training/144680fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1850,medium,
+training/144682fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1859,medium,
+training/144690fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dollar,Dollar,1874,high,
+training/144696fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1836,high,Final year of the Capped Bust Half Dollar before Seated Liberty replaced it.
+training/144714fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1891,high,Final year of the Seated Liberty quarter/half series.
+training/144716fs.jpg,fs_auction_photo,Trade Dollar Dollar,Dollar,1874,low,Date partially legible.
+training/144722fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1850,low,Date partially legible.
+training/144723fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1904,medium,
+training/144726fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1899,medium,
+training/144740fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1842,high,
+training/144743fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),,low,"Reads oddly like 1832, which predates the Seated Liberty design (introduced 1836-1840) - likely misread (possibly 1852/1862)."
+training/144750fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1860,medium,
+training/144755fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1840,medium,
+training/144756fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1842,medium,
+training/144757fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1852,medium,
+training/144762fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1856,low,Date partially legible.
+training/144764fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1870,high,
+training/144766fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1878,medium,
+training/144767fs.jpg,fs_auction_photo,Seated Liberty Dime (likely),Dime (likely),1888,medium,
+training/144768fs.jpg,fs_auction_photo,Standing Liberty Quarter,Quarter,1917,medium,Covered-breast (Type 2) style suggests 1917-1930 range.
+training/144770fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1847,medium,
+training/144771fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1855,medium,
+training/144774fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1873,medium,
+training/144776fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),1878,medium,
+training/144784fs.jpg,fs_auction_photo,Panama-Pacific Commemorative Gold (octagonal) $50 Gold,$50 Gold,1915,medium,Same type as 135764fs/143839fs.
+training/144785fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1870,medium,
+training/144870fs.jpg,fs_auction_photo,Seated Liberty (Arrows) uncertain (quarter/half),uncertain (quarter/half),1873,medium,
+training/144871fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1807,high,First year of the Capped Bust Half Dollar.
+training/144872fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1907,medium,
+training/144891fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1854,medium,
+training/144894fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1796,high,
+training/144896fs.jpg,fs_auction_photo,Liberty Head Gold (Coronet) uncertain,uncertain,,low,"Date reads oddly like 1803, earlier than the Coronet gold design's ~1834 debut - likely misread."
+training/144903fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1858,medium,
+training/144911fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1857,medium,
+training/144921fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1897,high,
+training/144925fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1858,medium,
+training/144941fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1839,low,Date partially legible.
+training/144960fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),,low,Date obscured by toning.
+training/144964fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1844,medium,
+training/144965fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1886,high,
+training/144976fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1858,medium,
+training/144983fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1856,medium,
+training/145028fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1846,medium,
+training/145051fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1868,medium,
+training/145053fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1802,high,
+training/145071fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1840,medium,
+training/145072fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1841,medium,
+training/145073fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),,low,Date not legible.
+training/145075fs.jpg,fs_auction_photo,Washington Quarter,Quarter,,low,Silver-era toning suggests pre-1965; exact date not legible.
+training/145076fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1842,medium,
+training/145077fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1849,medium,
+training/145078fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1852,medium,
+training/145083fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1856,medium,
+training/145084fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1843,medium,
+training/145085fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1848,medium,
+training/145122fs.jpg,fs_auction_photo,Capped Bust uncertain (half/dime),uncertain (half/dime),1837,low,Photographed inside a certification slab.
+training/145123fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1857,medium,
+training/145127fs.jpg,fs_auction_photo,Standing Liberty Quarter,Quarter,1918,low,Date partially legible.
+training/145131fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1851,medium,
+training/145132fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1889,high,
+training/145139fs.jpg,fs_auction_photo,Liberty Head Gold (Coronet) $2.50 Quarter Eagle,$2.50 Quarter Eagle,1841,medium,"1841 quarter eagles are a famous major rarity (""Little Princess"") if genuine business-strike/proof - likely a museum reference photo, not a coin in hand."
+training/145188fs.jpg,fs_auction_photo,Continental Currency Dollar (pewter/brass),Dollar (pewter/brass),1776,high,Same type as other Continental Currency entries.
+training/145207fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1795,high,
+training/145208fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1863,high,
+training/145211fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1855,medium,
+training/145232fs.jpg,fs_auction_photo,Liberty Head Gold (Coronet) $20 Double Eagle,$20 Double Eagle,1861,medium,
+training/145244fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,,low,Photographed inside an NGC slab; date not legible in this crop.
+training/145255fs.jpg,fs_auction_photo,Mercury (Winged Liberty Head) Dime,Dime,1942,low,Date partially legible.
+training/145256fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1806,high,
+training/145261fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1812,high,
+training/145262fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1798,high,
+training/145269fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1799,low,Date partially legible.
+training/145282fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1797,high,
+training/145287fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1834,low,Date partially legible.
+training/145313fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1918,low,Date partially legible.
+training/145316fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1858,medium,
+training/145328fs.jpg,fs_auction_photo,Washington Quarter,Quarter,,low,Silver-era toning suggests 1930s; exact date not legible.
+training/145336fs.jpg,fs_auction_photo,Panama-Pacific Commemorative Gold (round) $50 Gold,$50 Gold,1915,high,"Helmeted Liberty head + ""FIFTY DOLLARS"" matches the round-format companion to the octagonal 1915 Panama-Pacific $50 gold piece."
+training/145349fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1840,medium,
+training/145351fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1865,medium,
+training/145441fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1921,high,Key date for this series.
+training/145504fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1814,low,Date partially legible.
+training/145508fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1795,high,
+training/145509fs.jpg,fs_auction_photo,Morgan Dollar Dollar,Dollar,1879,high,
+training/145511fs.jpg,fs_auction_photo,California Gold Rush souvenir token (non-federal) fractional gold token,fractional gold token,1879,medium,"Small size, weight-marked (""...GRAMS"") design typical of privately-minted California small-denomination gold tokens, not official U.S. coinage."
+training/145532fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),,low,"Date not legible, worn."
+training/145554fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1913,medium,
+training/145563fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1856,low,Date partially legible.
+training/145565fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1840,medium,
+training/145568fs.jpg,fs_auction_photo,Seated Liberty (full legend) Dollar (likely),Dollar (likely),1865,low,Dark-field proof-like photo.
+training/145570fs.jpg,fs_auction_photo,California Gold Rush souvenir token (non-federal) fractional gold token,fractional gold token,1879,medium,Same type as 145511fs.
+training/145571fs.jpg,fs_auction_photo,Capped Bust Half Dollar,Half Dollar,1820,medium,Photographed inside a certification slab.
+training/145572fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1795,high,
+training/145576fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1851,low,Date partially legible.
+training/145578fs.jpg,fs_auction_photo,Draped Bust Dollar,Dollar,1806,low,Date partially legible.
+training/145579fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half/dollar),uncertain (quarter/half/dollar),,low,"Worn, date not legible."
+training/145586fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1861,medium,
+training/145590fs.jpg,fs_auction_photo,Barber uncertain (quarter/half),uncertain (quarter/half),1903,medium,
+training/145593fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1936,low,Date partially legible.
+training/145594fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1872,medium,
+training/145596fs.jpg,fs_auction_photo,Seated Liberty Dollar,Dollar,1841,low,Photographed inside an NGC slab; date partially legible.
+training/145600fs.jpg,fs_auction_photo,Seated Liberty (Arrows and Rays) Quarter,Quarter,1853,medium,
+training/145601fs.jpg,fs_auction_photo,Standing Liberty Quarter,Quarter,1923,high,
+training/145604fs.jpg,fs_auction_photo,Seated Liberty uncertain (quarter/half),uncertain (quarter/half),1848,medium,
+training/145606fs.jpg,fs_auction_photo,Walking Liberty Half Dollar,Half Dollar,1936,high,
+coin_crops/IMG_1213_q01_nc.jpg,user_collection_crop,"50 State Quarters - North Carolina (""NORTH CAROLINA 1789"", First Flight / Wright Flyer)",Circulating Quarter,2001,high,
+coin_crops/IMG_1213_q02_wxc.jpg,user_collection_crop,"""Washington Crossing the Delaware"" quarter (George Washington crossing the Delaware River, boat scene)",Circulating Quarter,2021,high,
+coin_crops/IMG_1213_q03_unk.jpg,user_collection_crop,"American Women Quarters (?) - robed/dancing figure with radiating ray lines and a diamond-shaped geometric element; closest match appears to be the 2023 ""Maria Tallchief"" (prima ballerina) design, but this is not fully certain from photo angle/wear alone",Circulating Quarter,,low,This is a 6th quarter that wasn't part of the original 5 identified in earlier passes. Recommend comparing side-by-side with a reference photo of the 2023 Maria Tallchief American Women Quarter to confirm.
+coin_crops/IMG_1213_q04_angelou.jpg,user_collection_crop,"American Women Quarters - Maya Angelou (figure with wings/arms raised, rising sun rays)",Circulating Quarter,2022,high,
+coin_crops/IMG_1213_q05_co.jpg,user_collection_crop,"50 State Quarters - Colorado (""COLORADO 1876"", Rocky Mountains design)",Circulating Quarter,2006,high,
+coin_crops/IMG_1213_q06_wv.jpg,user_collection_crop,"50 State Quarters - West Virginia (""WEST VIRGINIA 1863"", New River Gorge Bridge)",Circulating Quarter,2005,high,
+coin_crops/IMG_1213_d01.jpg,user_collection_crop,"Roosevelt Dime, clad",Circulating Dime,,low,Edge check: a visible copper-colored line means clad (common); a solid silver-gray edge with no copper line means 90% silver (1964 or earlier) - worth pulling aside.
+coin_crops/IMG_1213_d02.jpg,user_collection_crop,"Roosevelt Dime, clad",Circulating Dime,,low,Edge check: a visible copper-colored line means clad (common); a solid silver-gray edge with no copper line means 90% silver (1964 or earlier) - worth pulling aside.
+coin_crops/IMG_1213_d03.jpg,user_collection_crop,"Roosevelt Dime, clad",Circulating Dime,,low,Edge check: a visible copper-colored line means clad (common); a solid silver-gray edge with no copper line means 90% silver (1964 or earlier) - worth pulling aside.
+coin_crops/IMG_1213_d04.jpg,user_collection_crop,"Roosevelt Dime, clad",Circulating Dime,,low,Edge check: a visible copper-colored line means clad (common); a solid silver-gray edge with no copper line means 90% silver (1964 or earlier) - worth pulling aside.
+coin_crops/IMG_1213_d05.jpg,user_collection_crop,"Roosevelt Dime, clad",Circulating Dime,,low,Edge check: a visible copper-colored line means clad (common); a solid silver-gray edge with no copper line means 90% silver (1964 or earlier) - worth pulling aside.
+coin_crops/IMG_1213_d06.jpg,user_collection_crop,"Roosevelt Dime, clad",Circulating Dime,,low,Edge check: a visible copper-colored line means clad (common); a solid silver-gray edge with no copper line means 90% silver (1964 or earlier) - worth pulling aside.
+coin_crops/IMG_1213_d07.jpg,user_collection_crop,"Roosevelt Dime, clad",Circulating Dime,1973,low,"Partial ""1973"" visible at the bottom edge of this crop - not fully confident, verify in hand."
+coin_crops/IMG_1213_d08.jpg,user_collection_crop,"Roosevelt Dime, clad",Circulating Dime,,low,Edge check: a visible copper-colored line means clad (common); a solid silver-gray edge with no copper line means 90% silver (1964 or earlier) - worth pulling aside.
+coin_crops/IMG_1213_d09.jpg,user_collection_crop,"Roosevelt Dime, clad",Circulating Dime,,low,Edge check: a visible copper-colored line means clad (common); a solid silver-gray edge with no copper line means 90% silver (1964 or earlier) - worth pulling aside.
+coin_crops/IMG_1213_d10.jpg,user_collection_crop,"Roosevelt Dime, clad",Circulating Dime,,low,Edge check: a visible copper-colored line means clad (common); a solid silver-gray edge with no copper line means 90% silver (1964 or earlier) - worth pulling aside.
+coin_crops/IMG_1213_d11.jpg,user_collection_crop,"Roosevelt Dime, clad",Circulating Dime,,low,Edge check: a visible copper-colored line means clad (common); a solid silver-gray edge with no copper line means 90% silver (1964 or earlier) - worth pulling aside.
+coin_crops/IMG_1213_d12.jpg,user_collection_crop,"Roosevelt Dime, clad",Circulating Dime,,low,Edge check: a visible copper-colored line means clad (common); a solid silver-gray edge with no copper line means 90% silver (1964 or earlier) - worth pulling aside.
+coin_crops/IMG_1203_n01.jpg,user_collection_crop,"Jefferson Nickel, heavily worn (date not legible)",Circulating Nickel,,medium,
+coin_crops/IMG_1209_grid_c1r1.jpg,user_collection_crop,Lincoln wheat cent (pre-1959),Circulating Cent,,medium,"Wheat-ears reverse confirms this is a pre-1959 Lincoln cent. Obverse date not legible in this rotation - flip and check against key dates (1909-S VDB, 1909-S, 1914-D, 1922 plain, 1931-S, 1955 DDO) before assuming it's common."
+coin_crops/IMG_1209_grid_c1r2.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Worn/rotated, date not legible from photo."
+coin_crops/IMG_1209_grid_c1r3.jpg,user_collection_crop,Lincoln wheat cent (pre-1959),Circulating Cent,,medium,"Wheat-ears reverse, dark/corroded - pre-1959 cent, date not legible. Check against key dates before assuming common."
+coin_crops/IMG_1209_grid_c1r4.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Worn/rotated, date not legible from photo."
+coin_crops/IMG_1209_grid_c1r5.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1968,high,
+coin_crops/IMG_1209_grid_c2r1.jpg,user_collection_crop,Lincoln wheat cent (pre-1959),Circulating Cent,,medium,"Wheat-ears reverse, dark/corroded - pre-1959 cent, date not legible. Check against key dates before assuming common."
+coin_crops/IMG_1209_grid_c2r2.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1975,low,"Partially legible, verify in hand."
+coin_crops/IMG_1209_grid_c2r3.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1974,low,"Partially legible, verify in hand."
+coin_crops/IMG_1209_grid_c2r4.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Worn, glare obscures the date."
+coin_crops/IMG_1209_grid_c2r5.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1988,high,
+coin_crops/IMG_1209_grid_c3r1.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Dark and worn, date not legible."
+coin_crops/IMG_1209_grid_c3r2.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1971,medium,
+coin_crops/IMG_1209_grid_c3r3.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1984,high,
+coin_crops/IMG_1209_grid_c3r4.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1982,high,
+coin_crops/IMG_1209_grid_c3r5.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1962,medium,Partially obscured by neighboring coin in this crop.
+coin_crops/IMG_1209_grid_c4r1.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1972,high,
+coin_crops/IMG_1209_grid_c4r2.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1982,high,
+coin_crops/IMG_1209_grid_c4r3.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1961,medium,
+coin_crops/IMG_1209_grid_c4r4.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1976,high,
+coin_crops/IMG_1209_grid_c4r5.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1980,high,
+coin_crops/IMG_1209_grid_c5r1.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1970,medium,
+coin_crops/IMG_1209_grid_c5r2.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1969,high,
+coin_crops/IMG_1209_grid_c5r3.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1972,medium,
+coin_crops/IMG_1209_grid_c5r4.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1966,high,
+coin_crops/IMG_1209_grid_c5r5.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Worn, date not legible."
+coin_crops/IMG_1209_grid_c6r1.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1982,high,
+coin_crops/IMG_1209_grid_c6r2.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1982,high,
+coin_crops/IMG_1209_grid_c6r3.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Worn, date not legible."
+coin_crops/IMG_1209_grid_c6r4.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1989,high,
+coin_crops/IMG_1209_grid_c6r5.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,Worn/obscured by neighboring coin.
+coin_crops/IMG_1209_grid_c7r1.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1973,medium,
+coin_crops/IMG_1209_grid_c7r2.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1965,medium,
+coin_crops/IMG_1209_grid_c7r3.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Dark and worn, date not legible."
+coin_crops/IMG_1209_grid_c7r4.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1969,medium,
+coin_crops/IMG_1209_grid_c7r5.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1976,high,
+coin_crops/IMG_1209_grid_c8r1.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Dark and worn, date not legible."
+coin_crops/IMG_1209_grid_c8r2.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Dark and worn, date not legible."
+coin_crops/IMG_1209_grid_c8r3.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Dark and worn, date not legible."
+coin_crops/IMG_1209_grid_c8r4.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Underexposed/dark, date not legible."
+coin_crops/IMG_1209_grid_c8r5.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Dark and worn, date not legible."
+coin_crops/IMG_1209_grid_extra1.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1980,low,This crop's dominant coin looks like the SAME 1980 cent captured in grid_c4r5 (the two boxes are adjacent/overlapping) - likely not a distinct 42nd physical coin. Treat as a duplicate view unless a physical recount says otherwise.
+coin_crops/IMG_1208_p01.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1982,medium,
+coin_crops/IMG_1208_p02.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Digits ambiguous - looks like the 1970s (possibly 1971 or 1977), not confident enough to record a specific year."
+coin_crops/IMG_1208_p03.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1971,medium,
+coin_crops/IMG_1208_p04.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1976,medium,
+coin_crops/IMG_1208_p05.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1974,high,
+coin_crops/IMG_1208_p06.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Dark and worn, date not legible."
+coin_crops/IMG_1208_p07.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,Date not legible in this crop.
+coin_crops/IMG_1208_p08.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1982,medium,
+coin_crops/IMG_1208_p09.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1974,medium,
+coin_crops/IMG_1208_p10.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Digits are ambiguous between a 1970s date and ""1944"" - if it's actually 1944 this would be a wheat cent (check the reverse for wheat ears). Worth a physical look rather than assuming either reading."
+coin_crops/IMG_1208_p11.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Dark, date not legible."
+coin_crops/IMG_1208_p12.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,Only a sliver of this coin is visible in-frame; date not legible.
+coin_crops/IMG_1208_p13.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1974,medium,
+coin_crops/IMG_1208_p14.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,Date digits not clearly legible.
+coin_crops/IMG_1208_p15.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1974,low,"Partially legible, verify in hand."
+coin_crops/IMG_1208_p16.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,Overlapping neighbor coin makes the date ambiguous.
+coin_crops/IMG_1208_p17.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1974,medium,
+coin_crops/IMG_1208_p18.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,Date obscured by an overlapping neighbor coin.
+coin_crops/IMG_1208_p19.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1976,medium,
+coin_crops/IMG_1208_p20.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,,low,"Dark, date not legible."
+coin_crops/IMG_1233_b01.jpg,user_collection_crop,"Lincoln cent, Union Shield reverse (2010-present)",Circulating Cent,2023,high,
+coin_crops/IMG_1233_b02.jpg,user_collection_crop,"Lincoln cent, Union Shield reverse (2010-present)",Circulating Cent,,medium,"Union Shield reverse is clear (2010-present), but the obverse/date isn't shown in this crop."
+coin_crops/IMG_1233_b03.jpg,user_collection_crop,"Lincoln cent, Union Shield reverse (2010-present)",Circulating Cent,2021,high,
+coin_crops/IMG_1233_b04.jpg,user_collection_crop,"Lincoln cent, Union Shield reverse (2010-present)",Circulating Cent,2021,high,
+coin_crops/IMG_1233_b05.jpg,user_collection_crop,"Lincoln cent, Union Shield reverse (2010-present)",Circulating Cent,,medium,"Union Shield reverse is clear (2010-present), but the obverse/date isn't shown in this crop."
+coin_crops/IMG_1233_b06.jpg,user_collection_crop,"Lincoln cent, Union Shield reverse (2010-present)",Circulating Cent,2021,high,
+coin_crops/IMG_1233_b07.jpg,user_collection_crop,"Lincoln cent, Union Shield reverse (2010-present)",Circulating Cent,2011,high,
+coin_crops/IMG_1233_b08.jpg,user_collection_crop,"Lincoln cent, Memorial reverse (1959-2008)",Circulating Cent,,medium,"Lincoln Memorial reverse is clear (1959-2008), but the obverse/date isn't shown in this crop."
+coin_crops/IMG_1233_b09.jpg,user_collection_crop,"Lincoln cent, Memorial reverse (1959-2008)",Circulating Cent,1976,high,
+coin_crops/IMG_1233_b10.jpg,user_collection_crop,"Lincoln cent, Union Shield reverse (2010-present)",Circulating Cent,,medium,"Union Shield reverse is clear (2010-present), but the obverse/date isn't shown in this crop."
+coin_crops/IMG_1233_b11_gold.jpg,user_collection_crop,Union Shield cent (2010-present) with unusual overall brass/gold coloring instead of normal copper-red,Circulating Cent,,medium,"If you want to be sure, a genuine mint error (like a wrong-planchet or unplated cent) would be worth checking with a coin dealer, but the most common explanation for an evenly gold-toned modern cent is environmental exposure - which does not add value."
+coin_crops/IMG_1237_s1_c2015.jpg,user_collection_crop,Lincoln Union Shield cent,Circulating Cent,2015,medium,Bottom edge of the date is slightly cropped in this photo.
+coin_crops/IMG_1237_s1_c2004.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,2004,high,
+coin_crops/IMG_1237_s1_nickel.jpg,user_collection_crop,"Jefferson Nickel, ""Return to Monticello"" design (script Liberty)",Circulating Nickel,,low,Toning makes the last 1-2 digits ambiguous; re-check in hand under better light.
+coin_crops/IMG_1238_s2_c2013.jpg,user_collection_crop,Lincoln Union Shield cent,Circulating Cent,2013,medium,
+coin_crops/IMG_1238_s2_c2016.jpg,user_collection_crop,Lincoln Union Shield cent,Circulating Cent,2016,high,
+coin_crops/IMG_1238_s2_shield.jpg,user_collection_crop,"Lincoln cent, Union Shield reverse (2010-present)",Circulating Cent,,medium,"Reverse confirms 2010-present, but obverse/date not shown in this crop."
+coin_crops/IMG_1239_s3_c2015.jpg,user_collection_crop,Lincoln Union Shield cent,Circulating Cent,2015,high,
+coin_crops/IMG_1239_s3_c2020.jpg,user_collection_crop,Lincoln Union Shield cent,Circulating Cent,2020,high,
+coin_crops/IMG_1239_s3_c2023.jpg,user_collection_crop,Lincoln Union Shield cent,Circulating Cent,2023,high,
+coin_crops/IMG_1239_s3_c1986.jpg,user_collection_crop,Lincoln Memorial cent,Circulating Cent,1986,high,
+coin_crops/IMG_1239_s3_nickel.jpg,user_collection_crop,Roosevelt Dime,Circulating Dime,,low,Date not visible in this crop - re-photograph to confirm year.
+coin_crops/IMG_1240_s4_nickel2022.jpg,user_collection_crop,"Jefferson Nickel, ""Return to Monticello"" design (script Liberty)",Circulating Nickel,2022,high,
+coin_crops/IMG_1240_s4_nickel2009.jpg,user_collection_crop,"Jefferson Nickel, ""Return to Monticello"" design (script Liberty)",Circulating Nickel,2009,high,
+coin_crops/IMG_1240_s4_gold.jpg,user_collection_crop,Lincoln cent with unusual overall brass/gold coloring instead of normal copper-red,Circulating Cent,,low,"Second unusual brass/gold-toned cent in this batch - same likely explanation as the other one (environmental discoloration), but worth comparing the two side by side."

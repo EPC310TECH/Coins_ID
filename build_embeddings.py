@@ -1,4 +1,5 @@
 import csv
+import os
 
 import numpy as np
 import open_clip
@@ -6,6 +7,7 @@ import torch
 from PIL import Image
 
 MANIFEST_PATH = "training_manifest.csv"
+LOCAL_ONLY_MANIFESTS = ["hf_common_coins_manifest.csv"]
 OUT_PATH = "training_embeddings.npz"
 MODEL_NAME = "ViT-B-32-quickgelu"
 PRETRAINED = "openai"
@@ -25,6 +27,12 @@ def build():
 
     with open(MANIFEST_PATH, newline="") as f:
         rows = list(csv.DictReader(f))
+    for path in LOCAL_ONLY_MANIFESTS:
+        if os.path.exists(path):
+            with open(path, newline="") as f:
+                extra = list(csv.DictReader(f))
+            print(f"  + {len(extra)} rows from local-only {path}")
+            rows.extend(extra)
 
     embeddings = []
     kept_rows = []

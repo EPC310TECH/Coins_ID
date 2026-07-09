@@ -19,6 +19,10 @@ COIN_SPECS = {
         "diameter_mm": 21.21, "weight_g": 5.0,
         "composition": "75% copper, 25% nickel", "edge": "plain",
     },
+    "Buffalo Nickel (Indian Head, 1913-1938)": {
+        "diameter_mm": 21.21, "weight_g": 5.0,
+        "composition": "75% copper, 25% nickel", "edge": "plain",
+    },
     "Roosevelt Dime (silver, 1946-1964)": {
         "diameter_mm": 17.91, "weight_g": 2.50,
         "composition": "90% silver, 10% copper", "edge": "reeded",

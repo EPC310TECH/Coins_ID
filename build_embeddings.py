@@ -7,7 +7,7 @@ import torch
 from PIL import Image
 
 MANIFEST_PATH = "training_manifest.csv"
-LOCAL_ONLY_MANIFESTS = ["hf_common_coins_manifest.csv"]
+LOCAL_ONLY_MANIFESTS = ["hf_common_coins_manifest.csv", "rare_us_coins_manifest.csv"]
 OUT_PATH = "training_embeddings.npz"
 MODEL_NAME = "ViT-B-32-quickgelu"
 PRETRAINED = "openai"

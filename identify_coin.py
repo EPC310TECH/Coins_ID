@@ -39,11 +39,44 @@ def embed_image(path):
     return feat.cpu().numpy()[0]
 
 
-def identify(path, top_k=5):
+def canon_denomination(s):
+    """Collapse a free-text denomination (from the gallery or a detector) to a
+    canonical token, or None if it's ambiguous/unknown. Order matters:
+    'half dollar' before 'dollar', 'nickel' before 'cent' ("Nickel (5 cents)")."""
+    t = str(s).lower()
+    if "uncertain" in t:
+        return None
+    if "half" in t and "dollar" in t:  # "half dollar", "half-dollar", "half_dollar"
+        return "half_dollar"
+    if "dollar" in t:
+        return "dollar"
+    if "quarter" in t and "eagle" not in t:  # exclude "$2.50 Quarter Eagle" gold
+        return "quarter"
+    if "dime" in t:
+        return "dime"
+    if "nickel" in t:
+        return "nickel"
+    if "cent" in t or "penny" in t:
+        return "cent"
+    return None
+
+
+def identify(path, top_k=5, denomination=None):
+    """Nearest-neighbour identify. If `denomination` is given (e.g. a detector's
+    coarse call like 'quarter'), the search is restricted to gallery entries of
+    that denomination plus ambiguous ones - a soft prior, not a hard gate."""
     data = load_index()
     query = embed_image(path)
     sims = data["embeddings"] @ query  # cosine similarity (already L2-normalized)
-    order = np.argsort(-sims)[:top_k]
+    candidates = np.arange(len(sims))
+    target = canon_denomination(denomination) if denomination else None
+    if target:
+        keep = np.array([
+            canon_denomination(dn) in (target, None) for dn in data["denominations"]
+        ])
+        if keep.any():
+            candidates = candidates[keep]
+    order = candidates[np.argsort(-sims[candidates])[:top_k]]
     results = []
     for idx in order:
         results.append({

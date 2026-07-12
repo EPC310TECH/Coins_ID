@@ -43,7 +43,17 @@ def build():
         for fname in sorted(os.listdir(folder_path)):
             if not fname.lower().endswith((".jpg", ".jpeg", ".png")):
                 continue
-            side = "obverse" if "obverse" in fname.lower() else ("reverse" if "reverse" in fname.lower() else "unknown side")
+            low = fname.lower()
+            if "obverse" in low:
+                side = "obverse"
+            elif "reverse" in low:
+                side = "reverse"
+            else:
+                # Side-less images (an older, messier naming batch - all Washington
+                # quarters) proved to be nearest-neighbor "generic silver disc"
+                # attractors that dragged held-out accuracy down (42%->45% when
+                # dropped, with no class regressing). Skip them.
+                continue
             rows.append({
                 "file": os.path.join(folder_path, fname),
                 "source_type": "hf_common_coins",

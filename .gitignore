@@ -8,7 +8,7 @@ inventory.csv
 .DS_Store
 hf_common_coins_manifest.csv
 rare_us_coins_manifest.csv
-training_embeddings.npz.bak
+*.npz.bak
 thermal_labels/
 qr_codes/
 pre_id_labels_*.md

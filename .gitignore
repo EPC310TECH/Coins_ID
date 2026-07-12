@@ -2,6 +2,10 @@ __pycache__/
 *.pyc
 crops/
 detected_crops/
+# Raw third-party catalog exports (their compiled DB - not ours to redistribute).
+# Only the derived mintage FACTS in mintage_data.py get committed.
+training/US Coins*
+training/*Export*.json
 .env
 inbox/
 photos/

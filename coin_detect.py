@@ -31,7 +31,7 @@ import json
 import os
 import sys
 
-from PIL import Image
+from PIL import Image, ImageOps
 
 from identify_coin import identify, canon_denomination
 
@@ -118,7 +118,8 @@ def crop_detection(img, det, out_path, pad=PAD, upscale=2):
     return out_path
 
 
-def run(image_path, out_dir=CROP_DIR_DEFAULT, detections=None, use_prior=True):
+def run(image_path, out_dir=CROP_DIR_DEFAULT, detections=None, use_prior=True,
+        text_fusion=True):
     if detections is None:
         env = load_env()
         key = env.get("ROBOFLOW_API_KEY")
@@ -141,7 +142,12 @@ def run(image_path, out_dir=CROP_DIR_DEFAULT, detections=None, use_prior=True):
             detections = detect_roboflow(image_path, model, key, api_url)
 
     os.makedirs(out_dir, exist_ok=True)
-    img = Image.open(image_path).convert("RGB")
+    # Phone photos carry an EXIF orientation tag. Roboflow applies it (a 4032x3024
+    # file with orientation=6 is reported as 3024x4032), but PIL hands back the raw
+    # buffer - so cropping straight from Image.open() maps the detector's fractional
+    # boxes onto a frame with width/height swapped, and every crop lands in the wrong
+    # place. exif_transpose() puts us in the same frame the detector used.
+    img = ImageOps.exif_transpose(Image.open(image_path)).convert("RGB")
     stem = os.path.splitext(os.path.basename(image_path))[0]
     by_denom = {}
     for d in detections:
@@ -155,7 +161,7 @@ def run(image_path, out_dir=CROP_DIR_DEFAULT, detections=None, use_prior=True):
         out_path = os.path.join(out_dir, f"{stem}_det{i:02d}.jpg")
         crop_detection(img, det, out_path)
         denom = det.get("denomination") if use_prior else None
-        top = identify(out_path, top_k=3, denomination=denom)
+        top = identify(out_path, top_k=3, denomination=denom, text_fusion=text_fusion)
         best = top[0]
         rows.append((det, best, top))
         det_lbl = det.get("raw_class") or "?"
@@ -174,6 +180,7 @@ def main():
         sys.exit(1)
     image_path = args[0]
     use_prior = "--no-prior" not in args
+    text_fusion = "--no-fusion" not in args
     detections = None
     det_arg = None
     if "--detections" in args:
@@ -185,7 +192,8 @@ def main():
         if not a.startswith("--") and a != det_arg:
             out_dir = a
             break
-    run(image_path, out_dir=out_dir, detections=detections, use_prior=use_prior)
+    run(image_path, out_dir=out_dir, detections=detections, use_prior=use_prior,
+        text_fusion=text_fusion)
 
 
 if __name__ == "__main__":

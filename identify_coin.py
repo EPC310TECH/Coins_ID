@@ -61,13 +61,49 @@ def canon_denomination(s):
     return None
 
 
-def identify(path, top_k=5, denomination=None):
-    """Nearest-neighbour identify. If `denomination` is given (e.g. a detector's
-    coarse call like 'quarter'), the search is restricted to gallery entries of
-    that denomination plus ambiguous ones - a soft prior, not a hard gate."""
+# Image weight in text fusion; (1 - alpha) goes to the text anchor. Tuned on the
+# 120-image Wikimedia held-out set with anchors for all 170 gallery classes:
+# 1.0 (no fusion) = 45%, 0.8 = 51%, 0.5 = 50%, 0.4 = 48%, 0.0 (pure text) = 36%.
+# A closed-set prototype over only 10 clean class names preferred 0.4, but with
+# 170 classes - many carrying long free-text labels - the anchors are noisier, so
+# text gets a smaller share.
+DEFAULT_ALPHA = 0.8
+
+
+def _result(data, idx, similarity):
+    return {
+        "file": str(data["files"][idx]),
+        "class_label": str(data["class_labels"][idx]),
+        "denomination": str(data["denominations"][idx]),
+        "year": str(data["years"][idx]),
+        "source_type": str(data["source_types"][idx]),
+        "label_confidence": str(data["confidences"][idx]),
+        "similarity": float(similarity),
+    }
+
+
+def _minmax(v):
+    span = v.max() - v.min()
+    return (v - v.min()) / span if span else np.zeros_like(v)
+
+
+def identify(path, top_k=5, denomination=None, text_fusion=False, alpha=DEFAULT_ALPHA):
+    """Identify a cropped coin against the reference gallery.
+
+    denomination: soft prior (e.g. a detector's 'quarter') - restricts the search
+        to that denomination plus ambiguous entries.
+    text_fusion: score each *class* by fusing its best image match with its CLIP
+        text anchor. Raw nearest-neighbour lets dense classes (thousands of
+        Lincoln cents) swamp sparse ones (halves, dollars); the text anchor is
+        independent of how many reference images a class happens to have, so it
+        rescues them. Can't be done by simply adding anchors to the gallery -
+        the modality gap (image-text sim ~0.25 vs image-image ~0.85) means a
+        text anchor would never win a raw nearest-neighbour vote.
+    """
     data = load_index()
     query = embed_image(path)
     sims = data["embeddings"] @ query  # cosine similarity (already L2-normalized)
+
     candidates = np.arange(len(sims))
     target = canon_denomination(denomination) if denomination else None
     if target:
@@ -76,18 +112,33 @@ def identify(path, top_k=5, denomination=None):
         ])
         if keep.any():
             candidates = candidates[keep]
-    order = candidates[np.argsort(-sims[candidates])[:top_k]]
+
+    if not text_fusion or "anchor_labels" not in data.files:
+        order = candidates[np.argsort(-sims[candidates])[:top_k]]
+        return [_result(data, i, sims[i]) for i in order]
+
+    # --- class-level fused scoring ---
+    labels = data["class_labels"]
+    text_sims = data["anchor_embeddings"] @ query
+    anchor_of = {str(l): float(s) for l, s in zip(data["anchor_labels"], text_sims)}
+
+    best = {}  # class_label -> (entry index, image similarity)
+    for i in candidates:
+        label = str(labels[i])
+        if label not in best or sims[i] > best[label][1]:
+            best[label] = (i, float(sims[i]))
+
+    classes = list(best)
+    img = np.array([best[c][1] for c in classes])
+    txt = np.array([anchor_of.get(c, float(text_sims.min())) for c in classes])
+    fused = alpha * _minmax(img) + (1 - alpha) * _minmax(txt)
+
     results = []
-    for idx in order:
-        results.append({
-            "file": str(data["files"][idx]),
-            "class_label": str(data["class_labels"][idx]),
-            "denomination": str(data["denominations"][idx]),
-            "year": str(data["years"][idx]),
-            "source_type": str(data["source_types"][idx]),
-            "label_confidence": str(data["confidences"][idx]),
-            "similarity": float(sims[idx]),
-        })
+    for j in np.argsort(-fused)[:top_k]:
+        idx, sim = best[classes[j]]
+        row = _result(data, idx, sim)
+        row["fused_score"] = float(fused[j])
+        results.append(row)
     return results
 
 

@@ -29,6 +29,13 @@ KEY_DATE_CENTS = {
 }
 
 RULES = [
+    # Checked before the per-denomination rules: a pre-1965 set is silver because
+    # of what's inside it, and deserves a reason that says so.
+    {
+        "test": lambda row: str(row.get("category", "")) in ("Proof Set", "Mint Set")
+        and _year_num(row.get("year")) and _year_num(row["year"]) <= 1964,
+        "reason": "Pre-1965 U.S. Proof/Mint Set - the dime, quarter and half dollar inside are all 90% silver, so the set carries real melt value on top of any collector premium. Keep it sealed and intact; breaking a set up usually lowers what it's worth.",
+    },
     {
         "test": lambda row: row["category"] == "Circulating Cent" and row.get("wheat_reverse"),
         "reason": "Wheat-reverse cent (1909-1958) - worth pulling aside and checking the exact date/mintmark against the key-date list (1909-S VDB, 1909-S, 1914-D, 1922 plain, 1931-S, 1955 DDO) before assuming it's common.",
@@ -45,6 +52,14 @@ RULES = [
         "test": lambda row: row["category"] == "Circulating Nickel" and row.get("year") and _year_num(row["year"]) in (1942, 1943, 1944, 1945),
         "reason": "1942-1945 Jefferson nickels were struck in 35% silver (\"war nickels\") - check for a large mintmark over Monticello's dome.",
     },
+    {
+        "test": lambda row: _is_half_dollar(row) and _year_num(row.get("year")) and _year_num(row["year"]) <= 1964,
+        "reason": "Half dollar dated 1964 or earlier (1964 Kennedy, Franklin, Walking Liberty, Barber) - 90% silver. Worth many times face in melt value alone, regardless of grade.",
+    },
+    {
+        "test": lambda row: _is_half_dollar(row) and _year_num(row.get("year")) and 1965 <= _year_num(row["year"]) <= 1970,
+        "reason": "Kennedy half dated 1965-1970 - 40% silver (silver-clad). These are the ones people miss: they look like ordinary clad halves but still carry real melt value. Do not spend it.",
+    },
 ]
 
 
@@ -53,6 +68,15 @@ def _year_num(year_field):
         return int(str(year_field).strip()[:4])
     except (ValueError, TypeError):
         return None
+
+
+def _is_half_dollar(row):
+    """Half dollars can arrive labelled by category, denomination, or just the
+    design ('Kennedy Half Dollar'), so check all three."""
+    text = " ".join(
+        str(row.get(k, "") or "") for k in ("category", "denomination", "design_variety")
+    ).lower()
+    return "half dollar" in text or "half-dollar" in text
 
 
 def _ordinal(n):

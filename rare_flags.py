@@ -28,6 +28,26 @@ KEY_DATE_CENTS = {
     "1972 (doubled die obverse)", "1969-S (doubled die obverse)",
 }
 
+# Lincoln cent years with a famous doubled-die variety. The date alone doesn't
+# make the coin valuable - only the doubled specimen does - so these flag for a
+# loupe check rather than asserting a find. Value is on the variety, not the year.
+DOUBLED_DIE_CENT_YEARS = {
+    1955: "1955 Doubled Die Obverse - strong doubling on LIBERTY and the date "
+          "(a genuine one is ~$1,000+). A common machine-doubling look-alike is "
+          "worth nothing; look for clearly separated, rounded doubling.",
+    1969: "1969-S Doubled Die Obverse - ONLY the San Francisco (S) coin with "
+          "strong doubling on LIBERTY / IN GOD WE TRUST is the rarity (~$25,000+). "
+          "Check the mintmark first; a plain 1969 or 1969-D is common.",
+    1972: "1972 Doubled Die Obverse - Philadelphia (no mintmark), doubling on the "
+          "lettering (~$300+ for a strong one). Look with a loupe.",
+    1983: "1983 Doubled Die REVERSE - doubling shows on the reverse lettering "
+          "(ONE CENT / UNITED STATES OF AMERICA), not the date side (~$300+).",
+    1984: "1984 Doubled Die Obverse - 'doubled ear' variety; look for a second "
+          "earlobe on Lincoln (~$150+).",
+    1995: "1995 Doubled Die Obverse - doubling on LIBERTY / IN GOD WE TRUST "
+          "(modest premium; still worth setting aside).",
+}
+
 RULES = [
     # Checked before the per-denomination rules: a pre-1965 set is silver because
     # of what's inside it, and deserves a reason that says so.
@@ -39,6 +59,25 @@ RULES = [
     {
         "test": lambda row: row["category"] == "Circulating Cent" and row.get("wheat_reverse"),
         "reason": "Wheat-reverse cent (1909-1958) - worth pulling aside and checking the exact date/mintmark against the key-date list (1909-S VDB, 1909-S, 1914-D, 1922 plain, 1931-S, 1955 DDO) before assuming it's common.",
+    },
+    {
+        # 1982 is the transitional year: the cent switched from 95% copper bronze
+        # (3.11 g) to copper-plated zinc (2.5 g) mid-year, and BOTH were struck in
+        # both Small Date and Large Date. The 1982-D Small Date in bronze is a
+        # famous rarity (~$15,000+). No photo can tell bronze from zinc - only a
+        # scale can - so this flag sends the coin to a scale.
+        "test": lambda row: row["category"] == "Circulating Cent" and _year_num(row.get("year")) == 1982,
+        "reason": "1982 cent - transitional year, struck in BOTH bronze (3.11 g) "
+                  "and copper-plated zinc (2.5 g). WEIGH IT on a 0.01 g scale: a "
+                  "1982-D that weighs ~3.1 g (bronze) with a Small Date is a major "
+                  "rarity. A photo cannot tell the two apart - the scale decides.",
+    },
+    {
+        # Doubled-die varieties: valuable only if the doubling is actually present,
+        # so flag the year for a loupe check rather than claiming a find.
+        "test": lambda row: row["category"] == "Circulating Cent"
+        and _year_num(row.get("year")) in DOUBLED_DIE_CENT_YEARS,
+        "reason": None,  # filled in per-year by flag()
     },
     {
         "test": lambda row: row["category"] == "Circulating Dime" and row.get("year") and _year_num(row["year"]) and _year_num(row["year"]) <= 1964,
@@ -171,7 +210,10 @@ def flag(row):
     for rule in RULES:
         try:
             if rule["test"](row):
-                return True, rule["reason"]
+                reason = rule["reason"]
+                if reason is None:  # doubled-die rule: reason is per-year
+                    reason = DOUBLED_DIE_CENT_YEARS.get(_year_num(row.get("year")), "")
+                return True, reason
         except Exception:
             continue
     return False, ""

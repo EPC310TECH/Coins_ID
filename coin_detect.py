@@ -85,14 +85,33 @@ def detect_workflow(image_path, workspace, workflow_id, classes, api_key,
     return [d for d in dets if d["confidence"] >= min_conf]
 
 
+# A coin is round: its box is near-square and a meaningful fraction of the frame.
+# Shooting coins in 2x2 holders adds tiny sliver detections (staples, label
+# edges) at aspect 1.3-3.2 and a few px wide; real coins sit at aspect ~1.0 and
+# hundreds of px. These thresholds drop the junk without touching any coin.
+MAX_ASPECT = 1.25
+MIN_COIN_FRAC = 0.03  # min box dimension as a fraction of the frame's long edge
+
+
+def _is_coin_shaped(w, h, W, H):
+    if min(w, h) <= 0:
+        return False
+    if max(w, h) / min(w, h) > MAX_ASPECT:
+        return False
+    return min(w, h) >= MIN_COIN_FRAC * max(W, H)
+
+
 def _normalize(payload):
     """Roboflow returns center x/y + width/height in pixels; convert to
-    fractional x0/y0/x1/y1 boxes and a canonical denomination."""
+    fractional x0/y0/x1/y1 boxes and a canonical denomination. Non-coin-shaped
+    detections (holder slivers, staples) are dropped."""
     W = payload.get("image", {}).get("width")
     H = payload.get("image", {}).get("height")
     dets = []
     for p in payload.get("predictions", []):
         cx, cy, w, h = p["x"], p["y"], p["width"], p["height"]
+        if not _is_coin_shaped(w, h, W, H):
+            continue
         dets.append({
             "x0": (cx - w / 2) / W, "y0": (cy - h / 2) / H,
             "x1": (cx + w / 2) / W, "y1": (cy + h / 2) / H,

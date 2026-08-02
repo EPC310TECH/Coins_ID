@@ -105,6 +105,12 @@ python coin_detect.py path/to/batch.jpg
 python coin_detect.py path/to/batch.jpg --no-prior          # ignore detector denomination
 python coin_detect.py path/to/batch.jpg --detections d.json # offline, hand-supplied boxes
 
+# Whole box, one command: detect -> crop -> identify -> date-read -> flag -> BATCH_<date>.md
+python batch_report.py coin_images/IMG_15*.jpeg --box 1 --photoset 1
+
+# Read the date + mintmark off cropped coins (Claude Opus 4.8 vision)
+python read_coin_date.py --batch date_crops
+
 # Re-run the held-out accuracy benchmark
 python eval_wikimedia_heldout.py 12
 ```

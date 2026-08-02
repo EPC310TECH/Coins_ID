@@ -28,6 +28,10 @@ photo ──▶ detect + crop ──▶ identify ──▶ flag ──▶ invent
 
 ## Results
 
+**Latest batch:** [BATCH_20260802.md](BATCH_20260802.md) — 28 coins (front+back,
+full-res), run end-to-end through segment → crop → identify → date-read → flag.
+One coin flagged: a **1917 Standing Liberty Quarter** (90% silver).
+
 **Held-out accuracy** — measured with `eval_wikimedia_heldout.py` on 120
 Wikimedia Commons photos (12 images × 10 coin types) that are **not** in the
 reference gallery:

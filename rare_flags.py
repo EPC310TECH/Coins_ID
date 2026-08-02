@@ -80,11 +80,11 @@ RULES = [
         "reason": None,  # filled in per-year by flag()
     },
     {
-        "test": lambda row: row["category"] == "Circulating Dime" and row.get("year") and _year_num(row["year"]) and _year_num(row["year"]) <= 1964,
+        "test": lambda row: row["category"] == "Circulating Dime" and row.get("year") and _year_num(row["year"]) and _year_num(row["year"]) <= 1964 and not _is_modern_commemorative(row),
         "reason": "Dated 1964 or earlier - U.S. dimes this age (Barber/Mercury/Roosevelt alike) are 90% silver, worth several dollars in melt value alone regardless of grade.",
     },
     {
-        "test": lambda row: row["category"] == "Circulating Quarter" and row.get("year") and _year_num(row["year"]) and _year_num(row["year"]) <= 1964,
+        "test": lambda row: row["category"] == "Circulating Quarter" and row.get("year") and _year_num(row["year"]) and _year_num(row["year"]) <= 1964 and not _is_modern_commemorative(row),
         "reason": "Dated 1964 or earlier - U.S. quarters this age (Barber/Standing Liberty/Washington alike) are 90% silver.",
     },
     {
@@ -107,6 +107,27 @@ def _year_num(year_field):
         return int(str(year_field).strip()[:4])
     except (ValueError, TypeError):
         return None
+
+
+# Modern commemorative quarter/nickel programs put a HISTORICAL year in the
+# design (Wyoming State Quarter shows "1890", Bicentennial "1776", the 2026
+# Semiquincentennial "1776-2026"). A date reader can mistake that for the mint
+# year and wrongly trip the pre-1965 silver rule - but every one of these is
+# modern copper-nickel clad. If the series names one of these programs, it is
+# NOT silver no matter what year was read.
+_MODERN_COMMEM = (
+    "state quarter", "50 state", "america the beautiful", "national park",
+    "national monument", "national historic", "national wildlife", "atb",
+    "american women", "bicentennial", "semiquincentennial", "250th",
+    "westward journey",
+)
+
+
+def _is_modern_commemorative(row):
+    text = " ".join(
+        str(row.get(k, "") or "") for k in ("design_variety", "series", "notes")
+    ).lower()
+    return any(m in text for m in _MODERN_COMMEM)
 
 
 def _is_half_dollar(row):
